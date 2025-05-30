@@ -5,9 +5,6 @@
 ![Field Image](teaser.jpg)
 
 
-
-
-
 # Installation
 We have tested on Ubuntu 20.04 and 22.04.
 
