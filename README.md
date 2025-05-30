@@ -1,11 +1,20 @@
 # RoboMoRe
-This is the official code for RoboMoRe
+**RoboMoRe: LLM-based Robot Co-design via Joint Optimization of Morphology and Reward**
 
 
 ![Field Image](teaser.jpg)
 
 
-#
+
+
+
+# Installation
+
+
+
+
+
+# Getting Started
 
 
 
