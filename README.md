@@ -18,11 +18,13 @@ We have tested on Ubuntu 20.04 and 22.04.
     pip install -r requirements.txt
     ```
 
-
-
-
-
 # Getting Started
 
 
+
+# License
+This codebase is released under [MIT License](LICENSE).
+
+# Citation
+If you find our work useful, please consider citing us!
 
