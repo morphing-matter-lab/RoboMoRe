@@ -20,7 +20,8 @@ We have tested on Ubuntu 20.04 and 22.04.
 
 # Getting Started
 
-
+# Visualization
+We visualize our robots on the blender. We provide a customized script to transfer mujoco robot to blender and will open-source it if you are interested.
 
 # License
 This codebase is released under [MIT License](LICENSE).
