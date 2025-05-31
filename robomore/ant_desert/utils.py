@@ -358,10 +358,6 @@ def Eva_with_qpos_logging(model_path=None, run_steps=1, folder_name=None, video=
 
 
 
-
-
-
-
 class FitnessWrapper(gym.Wrapper):
     def __init__(self, env):
         super().__init__(env)
