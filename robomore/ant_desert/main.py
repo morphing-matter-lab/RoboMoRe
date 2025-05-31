@@ -14,11 +14,9 @@ from gymnasium.envs.robodesign.GPTAnt import GPTAntEnv
 from prompts import *
 class DGA:
     def __init__(self):
-        # api_key = "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"
-        api_key = "sk-2T1O2uaVw1ivqVqXGX4k1dRw0hU2Ndwk4IAgtvTQfbL905Wp"
-        self.client = OpenAI(api_key=api_key, base_url = "http://chatapi.littlewheat.com/v1")
+        self.client = OpenAI(api_key=api_key)
+        self.model = "gpt-4o-mini"
         # self.model = "gpt-3.5-turbo"
-        self.model = "gpt-4-turbo"
 
     def extract_code(self, text):
         match = re.search(r'```python\n(.*?)\n```', text, re.DOTALL)

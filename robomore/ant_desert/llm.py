@@ -5,13 +5,10 @@ import numpy as np
 from design import * 
 from utils import *
 
-
 class DGA:
     def __init__(self):
-        api_key = "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"
         self.client = OpenAI(api_key=api_key)
-        self.model = "gpt-3.5-turbo"
-        # self.model = "gpt-4-turbo"
+        self.model = "gpt-4o-mini"
 
     def extract_code(self, text):
         match = re.search(r'```python\n(.*?)\n```', text, re.DOTALL)
