@@ -1,0 +1,1114 @@
+2025-04-07 03:41:02,167 - start!
+2025-04-07 03:41:19,227 - folder_name:results/noDiv_m25_r5
+2025-04-07 03:41:19,227 - morphology_nums:25
+2025-04-07 03:41:19,227 - rewardfunc_nums:5
+2025-04-07 03:41:19,228 - parameter_list:[list([-0.5, 0.5, 0.8, 0.2, 0.15, -0.3, 0.15, -0.4, 0.1, -0.45, 0.2, -0.35, 0.25, -0.4, 0.15, -0.45, 0.08, 0.06, 0.07, 0.06, 0.05, 0.07, 0.075, 0.05])
+ list([-0.5, 0.5, 0.8, 0.2, 0.45, -0.3, 0.5, -0.5, 0.1, -0.3, 0.4, -0.35, 0.5, -0.6, 0.2, -0.4, 0.08, 0.06, 0.05, 0.045, 0.04, 0.05, 0.045, 0.04])
+ list([-0.6, 0.6, 0.9, 0.3, 0.4, -0.2, 0.3, -0.4, 0.5, -0.6, 0.3, -0.2, 0.4, -0.4, 0.5, -0.6, 0.08, 0.05, 0.06, 0.05, 0.05, 0.06, 0.05, 0.05])
+ list([-0.5, 0.5, 0.8, 0.2, 0.3, -0.4, 0.4, -0.5, 0.5, -0.6, -0.3, -0.5, 0.4, -0.6, 0.6, -0.7, 0.05, 0.04, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03])
+ list([-0.6, 0.6, 1.2, 0.4, 0.2, -0.3, 0.2, -0.5, 0.1, -0.6, 0.1, -0.2, 0.1, -0.4, 0.2, -0.5, 0.07, 0.05, 0.05, 0.04, 0.04, 0.05, 0.04, 0.03])
+ list([-0.6, 0.5, 0.9, 0.1, 0.55, -0.3, 0.4, -0.45, 0.2, -0.5, -0.55, -0.35, -0.35, -0.5, -0.15, -0.6, 0.08, 0.06, 0.075, 0.07, 0.065, 0.07, 0.065, 0.06])
+ list([-0.5, 0.5, 0.75, 0.2, 0.3, -0.4, 0.45, -0.5, 0.55, -0.6, -0.35, -0.45, -0.4, -0.55, -0.45, -0.65, 0.08, 0.05, 0.06, 0.05, 0.04, 0.06, 0.05, 0.04])
+ list([-0.5, 0.5, 0.6, 0.1, 0.4, -0.6, 0.6, -1.2, 0.7, -1.4, 0.6, -0.6, 0.7, -1.2, 0.8, -1.4, 0.07, 0.05, 0.06, 0.05, 0.045, 0.06, 0.05, 0.045])
+ list([-0.6, 0.5, 0.8, 0.2, 0.3, -0.2, 0.45, -0.45, 0.55, -0.5, 0.25, -0.25, 0.4, -0.4, 0.5, -0.6, 0.08, 0.07, 0.06, 0.05, 0.04, 0.06, 0.05, 0.04])
+ list([-0.6, 0.5, 0.9, 0.2, 0.3, -0.4, 0.45, -0.5, 0.6, -0.65, 0.2, -0.45, 0.4, -0.55, 0.5, -0.6, 0.07, 0.05, 0.06, 0.05, 0.04, 0.06, 0.05, 0.04])
+ list([-0.5, 0.5, 1.0, 0.3, 0.6, -0.4, 0.3, -0.6, 0.15, -0.8, -0.6, -0.4, 0.4, -0.6, 0.2, -0.8, 0.08, 0.05, 0.07, 0.07, 0.06, 0.07, 0.07, 0.06])
+ list([-0.5, 0.5, 0.8, 0.3, 0.4, -0.3, 0.4, -0.6, 0.5, -0.7, 0.6, -0.4, 0.6, -0.6, 0.7, -0.7, 0.05, 0.04, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03])
+ list([-0.5, 0.5, 0.8, 0.2, 0.4, -0.3, 0.35, -0.35, 0.35, -0.4, -0.4, -0.25, 0.3, -0.35, 0.3, -0.4, 0.09, 0.07, 0.08, 0.07, 0.06, 0.08, 0.07, 0.06])
+ list([-0.6, 0.5, 1.0, 0.3, 0.45, -0.3, 0.25, -0.5, 0.0, -0.7, -0.2, -0.45, 0.1, -0.6, 0.4, -0.8, 0.08, 0.05, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03])
+ list([-0.5, 0.5, 1.0, 0.2, 0.15, -0.35, 0.25, -0.55, 0.4, -0.75, -0.1, -0.35, 0.1, -0.55, 0.2, -0.75, 0.12, 0.1, 0.11, 0.11, 0.1, 0.12, 0.12, 0.09])
+ list([-0.5, 0.5, 0.8, 0.1, 0.4, -0.3, 0.4, -0.3, 0.3, -0.2, -0.4, -0.3, 0.3, -0.3, 0.2, -0.2, 0.06, 0.05, 0.05, 0.04, 0.03, 0.05, 0.04, 0.03])
+ list([-0.6, 0.6, 0.9, 0.2, 0.35, -0.5, 0.35, -0.8, 0.2, -0.85, -0.4, -0.4, -0.2, -0.75, -0.05, -0.8, 0.08, 0.05, 0.07, 0.06, 0.05, 0.07, 0.06, 0.05])
+ list([-0.5, 0.5, 0.8, 0.25, 0.4, -0.6, 0.7, -1.0, 0.9, -1.2, -0.4, -0.65, 0.65, -0.85, 0.8, -1.1, 0.08, 0.05, 0.06, 0.05, 0.04, 0.05, 0.04, 0.03])
+ list([-0.5, 0.5, 0.8, 0.2, 0.45, -0.35, 0.35, -0.45, 0.15, -0.25, -0.3, -0.25, 0.2, -0.35, 0.1, -0.2, 0.07, 0.05, 0.06, 0.04, 0.03, 0.05, 0.04, 0.03])
+ list([-0.6, 0.6, 0.9, 0.2, 0.4, -0.3, 0.5, -0.4, 0.6, -0.3, 0.3, -0.3, 0.4, -0.4, 0.5, -0.3, 0.14, 0.12, 0.1, 0.08, 0.07, 0.1, 0.08, 0.07])
+ list([-0.3, 0.3, 0.6, 0.2, 0.2, -0.4, 0.4, -0.6, 0.5, -0.8, 0.2, -0.4, 0.4, -0.6, 0.5, -0.8, 0.15, 0.12, 0.1, 0.08, 0.06, 0.1, 0.08, 0.06])
+ list([-0.5, 0.5, 0.8, 0.1, 0.4, -0.35, 0.35, -0.35, 0.15, -0.2, 0.3, -0.3, 0.2, -0.25, 0.1, -0.15, 0.06, 0.04, 0.05, 0.04, 0.03, 0.05, 0.04, 0.03])
+ list([-0.5, 0.5, 1.0, 0.2, 0.2, -0.4, 0.35, -0.8, 0.4, -0.9, -0.4, -0.3, 0.35, -0.55, 0.5, -0.7, 0.08, 0.05, 0.06, 0.05, 0.04, 0.035, 0.07, 0.06, 0.055, 0.05])
+ list([-0.5, 0.5, 0.8, 0.3, 0.4, -0.6, 0.5, -1.2, 0.7, -1.5, -0.3, -0.7, 0.45, -1.1, 0.6, -1.4, 0.07, 0.05, 0.06, 0.05, 0.04, 0.06, 0.05, 0.04])
+ list([-0.5, 0.5, 1.0, 0.2, 0.6, -0.4, 0.6, -0.8, 0.6, -1.0, 0.7, -0.5, 0.7, -0.7, 0.7, -0.9, 0.07, 0.05, 0.045, 0.04, 0.035, 0.045, 0.04, 0.035])
+ list([-0.5, 0.5, 0.8, 0.1, 0.3, -0.4, 0.3, -0.6, 0.4, -0.8, -0.3, -0.5, 0.3, -0.6, 0.4, -0.8, 0.05, 0.04, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03])
+ list([-0.6, 0.6, 0.9, 0.5, 0.6, -0.4, 0.75, -0.8, 0.9, -1.0, 0.45, -0.5, 0.75, -0.7, 0.85, -0.9, 0.08, 0.05, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03])
+ list([-0.5, 0.5, 0.8, 0.2, 0.4, -0.8, 0.45, -1.2, 0.6, -1.5, 0.35, -0.85, 0.5, -1.1, 0.7, -1.3, 0.09, 0.07, 0.08, 0.075, 0.07, 0.08, 0.075, 0.07])
+ list([-0.6, 0.5, 1.0, 0.3, 0.35, -0.5, 0.3, -0.6, 0.1, -0.7, 0.45, -0.4, 0.3, -0.5, 0.2, -0.6, 0.07, 0.05, 0.08, 0.07, 0.06, 0.08, 0.07, 0.06])
+ list([-0.5, 0.5, 0.7, 0.2, 0.3, -0.2, 0.45, -0.35, 0.55, -0.45, -0.25, -0.2, 0.3, -0.35, 0.45, -0.4, 0.06, 0.04, 0.05, 0.05, 0.045, 0.05, 0.045, 0.04])
+ list([-0.5, 0.5, 0.8, 0.1, 0.3, -0.4, 0.15, -0.6, 0.1, -0.7, -0.3, -0.4, 0.2, -0.6, 0.1, -0.7, 0.07, 0.05, 0.06, 0.05, 0.04, 0.05, 0.04, 0.03])
+ list([-0.5, 0.5, 0.8, 0.2, 0.6, -0.4, 1.0, -0.6, 1.2, -0.7, 0.3, -0.5, 0.7, -0.6, 0.9, -0.7, 0.08, 0.05, 0.04, 0.03, 0.04, 0.04, 0.03, 0.03])
+ list([-0.5, 0.5, 1.0, 1.2, 0.6, -0.6, 0.7, -1.2, 0.75, -1.5, -0.6, -0.65, 0.7, -1.25, 0.8, -1.6, 0.08, 0.05, 0.06, 0.045, 0.04, 0.05, 0.045, 0.035])
+ list([-0.5, 0.5, 0.8, 0.2, 0.3, -0.4, 0.4, -0.5, 0.5, -0.6, -0.3, -0.4, 0.5, -0.7, 0.6, -0.8, 0.05, 0.03, 0.04, 0.03, 0.03, 0.04, 0.035, 0.03])
+ list([-0.5, 0.5, 0.8, 0.1, 0.25, -0.15, 0.25, -0.3, 0.3, -0.35, -0.25, -0.15, 0.35, -0.25, 0.3, -0.3, 0.06, 0.04, 0.05, 0.04, 0.03, 0.05, 0.04, 0.03])
+ list([-0.5, 0.5, 0.9, 0.2, 0.3, -0.6, 0.1, -0.8, 0.05, -0.9, -0.3, -0.6, -0.1, -0.8, -0.05, -0.9, 0.08, 0.05, 0.07, 0.07, 0.05, 0.06, 0.06, 0.04])
+ list([-0.4, 0.3, 0.6, 0.15, 0.2, -0.3, 0.1, -0.35, 0.15, -0.4, -0.25, -0.3, 0.2, -0.35, 0.25, -0.4, 0.08, 0.05, 0.06, 0.04, 0.042, 0.06, 0.045, 0.04])
+ list([-0.5, 0.5, 1.0, 0.5, 0.2, -0.6, 0.4, -1.2, 0.45, -1.4, 0.2, -0.6, 0.45, -1.2, 0.5, -1.4, 0.08, 0.05, 0.05, 0.045, 0.04, 0.05, 0.045, 0.04])
+ list([-0.6, 0.6, 1.2, 0.2, 0.4, -0.4, 0.3, -0.6, 0.2, -0.8, 0.5, -0.5, 0.3, -0.7, 0.1, -0.9, 0.08, 0.05, 0.04, 0.04, 0.03, 0.04, 0.03, 0.02])
+ list([-0.5, 0.5, 0.9, 0.3, 0.2, -0.3, 0.1, -0.4, 0.15, -0.5, -0.2, -0.25, 0.1, -0.35, 0.15, -0.6, 0.06, 0.04, 0.05, 0.04, 0.04, 0.05, 0.04, 0.04])
+ list([-0.5, 0.5, 1.0, 0.2, 0.25, -0.4, 0.4, -0.5, 0.1, -0.6, 0.23, -0.3, 0.25, -0.35, 0.1, -0.4, 0.08, 0.07, 0.06, 0.05, 0.04, 0.06, 0.05, 0.04])
+ list([-0.6, 0.5, 1.0, 0.4, 0.3, -0.25, 0.3, -0.5, 0.2, -0.3, 0.4, -0.25, 0.5, -0.4, 0.3, -0.2, 0.12, 0.08, 0.1, 0.08, 0.07, 0.1, 0.08, 0.07])
+ list([-0.6, 0.3, 0.5, 0.2, 0.3, -0.45, 0.2, -0.5, 0.2, -0.5, -0.2, -0.4, 0.1, -0.45, 0.1, -0.4, 0.07, 0.05, 0.06, 0.05, 0.04, 0.06, 0.05, 0.04])
+ list([-0.5, 0.5, 0.8, 0.2, 0.4, -0.3, 0.35, -0.4, 0.2, -0.25, 0.3, -0.35, 0.25, -0.3, 0.15, -0.2, 0.06, 0.04, 0.05, 0.045, 0.035, 0.05, 0.045, 0.035])
+ list([-0.5, 0.5, 1.0, 0.4, 0.3, -0.7, 0.3, -1.4, 0.3, -1.8, -0.3, -0.6, -0.3, -1.4, -0.3, -1.7, 0.35, 0.2, 0.15, 0.15, 0.15, 0.15, 0.15, 0.1])
+ list([-0.5, 0.5, 0.8, 0.2, 0.3, -0.4, 0.2, -0.6, 0.1, -0.8, -0.3, -0.4, 0.2, -0.6, 0.1, -0.9, 0.06, 0.04, 0.05, 0.04, 0.03, 0.05, 0.04, 0.03])
+ list([-0.5, 0.5, 1.0, 0.2, 0.35, -0.1, 0.3, -0.15, 0.4, -0.2, -0.25, -0.15, -0.2, -0.25, -0.3, -0.3, 0.08, 0.05, 0.05, 0.04, 0.03, 0.05, 0.04, 0.03])
+ list([-0.5, 0.5, 0.8, 0.2, 0.5, -0.4, 0.6, -0.7, 0.65, -0.75, -0.5, -0.45, -0.65, -0.7, -0.7, -0.75, 0.08, 0.05, 0.07, 0.06, 0.05, 0.07, 0.06, 0.05])
+ list([-0.6, 0.5, 0.8, 0.2, 0.35, -0.4, 0.45, -0.5, 0.55, -0.6, -0.45, -0.4, 0.5, -0.5, 0.55, -0.6, 0.07, 0.05, 0.06, 0.05, 0.04, 0.06, 0.05, 0.04])
+ list([-0.5, 0.5, 0.8, 1.2, 0.3, -0.6, 0.5, -1.0, 0.6, -1.3, -0.3, -0.5, 0.5, -0.9, 0.6, -1.1, 0.07, 0.05, 0.07, 0.06, 0.05, 0.07, 0.06, 0.05])]
+2025-04-07 03:41:19,229 - morphology_list:['results/noDiv_m25_r5/assets/GPTCheetah_0.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_1.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_2.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_3.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_4.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_5.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_6.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_7.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_8.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_9.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_10.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_11.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_12.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_13.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_14.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_15.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_16.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_17.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_18.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_19.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_20.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_21.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_22.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_23.xml', 'results/noDiv_m25_r5/assets/GPTCheetah_24.xml']
+2025-04-07 03:41:19,229 - material_list:[0.0709562971699176, 0.056555345664974395, 0.06792441889767671, 0.02788783835590477, 0.04627957393999089, 0.0958723022225834, 0.06305576841300711, 0.0851678727725528, 0.06696481753027926, 0.059748542514079614, 0.1006908962605068, 0.029736186202506412, 0.09752270681461601, 0.04697581382506348, 0.24722650026674492, 0.035198754911527005, 0.08967844006044241, 0.07245957880768267, 0.04188447677147288, 0.22245834546621543, 0.18531095580705348, 0.031165171876013698, 0.07355695730089304, 0.07974747881426071, 0.05596102088859325, 0.02798224701094123, 0.056181722015762894, 0.18139276811915475, 0.09489524731577702, 0.039047864170507915, 0.049459427853935166, 0.05306116728917257, 0.08749265203583684, 0.027060571738104843, 0.029552194615770955, 0.08654292497986148, 0.04226480107415885, 0.07490129785266637, 0.052806890867741624, 0.03435189311466977, 0.06592645547302578, 0.15912703583392251, 0.04724111947260456, 0.034404738072771286, 1.2950538758570944, 0.03748916767520009, 0.043501513982307026, 0.09227627568672575, 0.06060304179924825, 0.09908907796304095]
+2025-04-07 03:41:19,230 - _________________________________enter coarse optimization stage_________________________________
+2025-04-07 03:45:41,868 - Successfully trainning_______morphology0________rewardfunc0
+2025-04-07 03:46:55,923 - 
+Average Fitness: 13.6484  std_fitness 1.374749854745733 Avg reward 31.0701
+2025-04-07 03:46:55,924 - ___________________finish coarse optimization_____________________
+2025-04-07 03:46:55,924 - morphology: 0, rewardfunc: 0, material cost: 0.0709562971699176 reward: 31.070146367376033 fitness: 13.64835462166776 efficiency: 192.34874374834308
+2025-04-07 03:50:47,915 - Successfully trainning_______morphology1________rewardfunc0
+2025-04-07 03:52:00,534 - 
+Average Fitness: 23.8165  std_fitness 0.9066475249875244 Avg reward 165.3882
+2025-04-07 03:52:00,535 - ___________________finish coarse optimization_____________________
+2025-04-07 03:52:00,535 - morphology: 1, rewardfunc: 0, material cost: 0.056555345664974395 reward: 165.3882163550708 fitness: 23.816542025827633 efficiency: 421.11920183307427
+2025-04-07 03:55:53,433 - Successfully trainning_______morphology2________rewardfunc0
+2025-04-07 03:57:07,404 - 
+Average Fitness: 9.7197  std_fitness 4.993301552500069 Avg reward 10.5503
+2025-04-07 03:57:07,405 - ___________________finish coarse optimization_____________________
+2025-04-07 03:57:07,405 - morphology: 2, rewardfunc: 0, material cost: 0.06792441889767671 reward: 10.550337984084319 fitness: 9.719735693876222 efficiency: 143.09633930793447
+2025-04-07 04:00:59,765 - Successfully trainning_______morphology3________rewardfunc0
+2025-04-07 04:02:13,023 - 
+Average Fitness: 170.8381  std_fitness 1.855378823360105 Avg reward 3076.9988
+2025-04-07 04:02:13,025 - ___________________finish coarse optimization_____________________
+2025-04-07 04:02:13,026 - morphology: 3, rewardfunc: 0, material cost: 0.02788783835590477 reward: 3076.998760957107 fitness: 170.838052435609 efficiency: 6125.897972276399
+2025-04-07 04:06:05,559 - Successfully trainning_______morphology4________rewardfunc0
+2025-04-07 04:07:19,346 - 
+Average Fitness: 19.8609  std_fitness 2.1708610098503383 Avg reward 211.0080
+2025-04-07 04:07:19,347 - ___________________finish coarse optimization_____________________
+2025-04-07 04:07:19,347 - morphology: 4, rewardfunc: 0, material cost: 0.04627957393999089 reward: 211.00795156984384 fitness: 19.860928825226598 efficiency: 429.1510732354531
+2025-04-07 04:11:09,508 - Successfully trainning_______morphology5________rewardfunc0
+2025-04-07 04:12:23,221 - 
+Average Fitness: 46.4503  std_fitness 17.136644862403195 Avg reward 580.6510
+2025-04-07 04:12:23,222 - ___________________finish coarse optimization_____________________
+2025-04-07 04:12:23,222 - morphology: 5, rewardfunc: 0, material cost: 0.0958723022225834 reward: 580.6510117392397 fitness: 46.450322891924564 efficiency: 484.5020075149803
+2025-04-07 04:16:15,425 - Successfully trainning_______morphology6________rewardfunc0
+2025-04-07 04:17:29,140 - 
+Average Fitness: 124.1399  std_fitness 1.4759805229502119 Avg reward 2139.7310
+2025-04-07 04:17:29,141 - ___________________finish coarse optimization_____________________
+2025-04-07 04:17:29,141 - morphology: 6, rewardfunc: 0, material cost: 0.06305576841300711 reward: 2139.731022704929 fitness: 124.13986581092472 efficiency: 1968.7313141253737
+2025-04-07 04:21:22,837 - Successfully trainning_______morphology7________rewardfunc0
+2025-04-07 04:22:36,793 - 
+Average Fitness: 124.1402  std_fitness 17.78385428620925 Avg reward 2129.7529
+2025-04-07 04:22:36,794 - ___________________finish coarse optimization_____________________
+2025-04-07 04:22:36,794 - morphology: 7, rewardfunc: 0, material cost: 0.0851678727725528 reward: 2129.752912282963 fitness: 124.14019935483357 efficiency: 1457.5942231921101
+2025-04-07 04:26:29,542 - Successfully trainning_______morphology8________rewardfunc0
+2025-04-07 04:27:44,033 - 
+Average Fitness: 78.9332  std_fitness 0.877693932529859 Avg reward 1246.7797
+2025-04-07 04:27:44,034 - ___________________finish coarse optimization_____________________
+2025-04-07 04:27:44,034 - morphology: 8, rewardfunc: 0, material cost: 0.06696481753027926 reward: 1246.779668617273 fitness: 78.9331824229044 efficiency: 1178.726162991685
+2025-04-07 04:31:36,827 - Successfully trainning_______morphology9________rewardfunc0
+2025-04-07 04:32:49,778 - 
+Average Fitness: 170.9534  std_fitness 1.7309219611751359 Avg reward 3069.6894
+2025-04-07 04:32:49,779 - ___________________finish coarse optimization_____________________
+2025-04-07 04:32:49,779 - morphology: 9, rewardfunc: 0, material cost: 0.059748542514079614 reward: 3069.6894017604623 fitness: 170.9534111307339 efficiency: 2861.2147499740117
+2025-04-07 04:36:42,265 - Successfully trainning_______morphology10________rewardfunc0
+2025-04-07 04:37:55,997 - 
+Average Fitness: 183.8459  std_fitness 26.040868141413277 Avg reward 3319.8776
+2025-04-07 04:37:55,998 - ___________________finish coarse optimization_____________________
+2025-04-07 04:37:55,998 - morphology: 10, rewardfunc: 0, material cost: 0.1006908962605068 reward: 3319.8776395328327 fitness: 183.84591839423396 efficiency: 1825.8444926201576
+2025-04-07 04:41:51,268 - Successfully trainning_______morphology11________rewardfunc0
+2025-04-07 04:43:05,981 - 
+Average Fitness: 90.0368  std_fitness 1.2896714412618775 Avg reward 1434.3684
+2025-04-07 04:43:05,982 - ___________________finish coarse optimization_____________________
+2025-04-07 04:43:05,982 - morphology: 11, rewardfunc: 0, material cost: 0.029736186202506412 reward: 1434.368359530352 fitness: 90.03683663969154 efficiency: 3027.8542119198355
+2025-04-07 04:46:56,458 - Successfully trainning_______morphology12________rewardfunc0
+2025-04-07 04:48:09,769 - 
+Average Fitness: 130.7503  std_fitness 2.93236934475848 Avg reward 2230.2797
+2025-04-07 04:48:09,770 - ___________________finish coarse optimization_____________________
+2025-04-07 04:48:09,771 - morphology: 12, rewardfunc: 0, material cost: 0.09752270681461601 reward: 2230.279743861662 fitness: 130.7502731189885 efficiency: 1340.7162023049239
+2025-04-07 04:52:01,994 - Successfully trainning_______morphology13________rewardfunc0
+2025-04-07 04:53:15,174 - 
+Average Fitness: 20.2909  std_fitness 6.276034444930307 Avg reward 49.8621
+2025-04-07 04:53:15,176 - ___________________finish coarse optimization_____________________
+2025-04-07 04:53:15,177 - morphology: 13, rewardfunc: 0, material cost: 0.04697581382506348 reward: 49.86209159763871 fitness: 20.29092374108581 efficiency: 431.9440599081178
+2025-04-07 04:57:07,779 - Successfully trainning_______morphology14________rewardfunc0
+2025-04-07 04:58:20,916 - 
+Average Fitness: 46.0490  std_fitness 14.346116129250253 Avg reward 598.2366
+2025-04-07 04:58:20,917 - ___________________finish coarse optimization_____________________
+2025-04-07 04:58:20,917 - morphology: 14, rewardfunc: 0, material cost: 0.24722650026674492 reward: 598.2366269191219 fitness: 46.04899099414209 efficiency: 186.26235838171698
+2025-04-07 05:02:12,377 - Successfully trainning_______morphology15________rewardfunc0
+2025-04-07 05:03:26,320 - 
+Average Fitness: 100.2879  std_fitness 41.04466935742273 Avg reward 1629.7396
+2025-04-07 05:03:26,321 - ___________________finish coarse optimization_____________________
+2025-04-07 05:03:26,321 - morphology: 15, rewardfunc: 0, material cost: 0.035198754911527005 reward: 1629.7395948265216 fitness: 100.28791375656515 efficiency: 2849.1892400353777
+2025-04-07 05:07:19,362 - Successfully trainning_______morphology16________rewardfunc0
+2025-04-07 05:08:33,879 - 
+Average Fitness: 10.4998  std_fitness 5.957577924936245 Avg reward -75.7874
+2025-04-07 05:08:33,880 - ___________________finish coarse optimization_____________________
+2025-04-07 05:08:33,880 - morphology: 16, rewardfunc: 0, material cost: 0.08967844006044241 reward: -75.78736913381981 fitness: 10.499833937512848 efficiency: 117.08314652257623
+2025-04-07 05:12:29,429 - Successfully trainning_______morphology17________rewardfunc0
+2025-04-07 05:13:42,358 - 
+Average Fitness: 208.3136  std_fitness 6.7256837094164545 Avg reward 3811.4438
+2025-04-07 05:13:42,359 - ___________________finish coarse optimization_____________________
+2025-04-07 05:13:42,359 - morphology: 17, rewardfunc: 0, material cost: 0.07245957880768267 reward: 3811.4437875223402 fitness: 208.3136403059711 efficiency: 2874.894440924962
+2025-04-07 05:17:34,653 - Successfully trainning_______morphology18________rewardfunc0
+2025-04-07 05:18:48,639 - 
+Average Fitness: 118.4893  std_fitness 2.2766779674363864 Avg reward 1961.1838
+2025-04-07 05:18:48,640 - ___________________finish coarse optimization_____________________
+2025-04-07 05:18:48,640 - morphology: 18, rewardfunc: 0, material cost: 0.04188447677147288 reward: 1961.1838290010242 fitness: 118.4893074023224 efficiency: 2828.9551770890052
+2025-04-07 05:22:40,378 - Successfully trainning_______morphology19________rewardfunc0
+2025-04-07 05:23:53,973 - 
+Average Fitness: 97.4061  std_fitness 0.9230092958585366 Avg reward 1631.0623
+2025-04-07 05:23:53,974 - ___________________finish coarse optimization_____________________
+2025-04-07 05:23:53,975 - morphology: 19, rewardfunc: 0, material cost: 0.22245834546621543 reward: 1631.0623196124757 fitness: 97.40614054114535 efficiency: 437.86237975027257
+2025-04-07 05:27:46,028 - Successfully trainning_______morphology20________rewardfunc0
+2025-04-07 05:28:59,876 - 
+Average Fitness: 158.3402  std_fitness 3.0201844061217753 Avg reward 2803.8359
+2025-04-07 05:28:59,877 - ___________________finish coarse optimization_____________________
+2025-04-07 05:28:59,878 - morphology: 20, rewardfunc: 0, material cost: 0.18531095580705348 reward: 2803.8358766827446 fitness: 158.34022515904763 efficiency: 854.456901749037
+2025-04-07 05:32:53,491 - Successfully trainning_______morphology21________rewardfunc0
+2025-04-07 05:34:07,381 - 
+Average Fitness: 83.2265  std_fitness 1.1949867137836714 Avg reward 1359.5103
+2025-04-07 05:34:07,382 - ___________________finish coarse optimization_____________________
+2025-04-07 05:34:07,382 - morphology: 21, rewardfunc: 0, material cost: 0.031165171876013698 reward: 1359.5103292108715 fitness: 83.22651096191899 efficiency: 2670.497415930324
+2025-04-07 05:37:59,550 - Successfully trainning_______morphology22________rewardfunc0
+2025-04-07 05:39:14,324 - 
+Average Fitness: 0.1001  std_fitness 0.07562252079192215 Avg reward -407.3579
+2025-04-07 05:39:14,325 - ___________________finish coarse optimization_____________________
+2025-04-07 05:39:14,325 - morphology: 22, rewardfunc: 0, material cost: 0.07355695730089304 reward: -407.3579381625098 fitness: 0.10011092260757369 efficiency: 1.3609986910967329
+2025-04-07 05:43:08,934 - Successfully trainning_______morphology23________rewardfunc0
+2025-04-07 05:44:22,626 - 
+Average Fitness: 172.1906  std_fitness 60.903243888397945 Avg reward 3077.9685
+2025-04-07 05:44:22,627 - ___________________finish coarse optimization_____________________
+2025-04-07 05:44:22,628 - morphology: 23, rewardfunc: 0, material cost: 0.07974747881426071 reward: 3077.968538589559 fitness: 172.1905606869142 efficiency: 2159.1975476486477
+2025-04-07 05:48:17,619 - Successfully trainning_______morphology24________rewardfunc0
+2025-04-07 05:49:31,580 - 
+Average Fitness: 63.7933  std_fitness 1.7826923186710815 Avg reward 923.1696
+2025-04-07 05:49:31,581 - ___________________finish coarse optimization_____________________
+2025-04-07 05:49:31,582 - morphology: 24, rewardfunc: 0, material cost: 0.05596102088859325 reward: 923.1695753446157 fitness: 63.793308105494496 efficiency: 1139.9596914519072
+2025-04-07 05:53:25,257 - Successfully trainning_______morphology0________rewardfunc1
+2025-04-07 05:54:39,405 - 
+Average Fitness: 4.8276  std_fitness 17.796696101284127 Avg reward -183.8578
+2025-04-07 05:54:39,406 - ___________________finish coarse optimization_____________________
+2025-04-07 05:54:39,406 - morphology: 0, rewardfunc: 1, material cost: 0.0709562971699176 reward: -183.85783076771307 fitness: 4.82755281297902 efficiency: 68.03557972336941
+2025-04-07 05:58:32,712 - Successfully trainning_______morphology1________rewardfunc1
+2025-04-07 05:59:45,752 - 
+Average Fitness: 28.6696  std_fitness 1.102654344750101 Avg reward 248.9353
+2025-04-07 05:59:45,753 - ___________________finish coarse optimization_____________________
+2025-04-07 05:59:45,753 - morphology: 1, rewardfunc: 1, material cost: 0.056555345664974395 reward: 248.93533140750517 fitness: 28.669615943870834 efficiency: 506.930257551699
+2025-04-07 06:03:41,534 - Successfully trainning_______morphology2________rewardfunc1
+2025-04-07 06:04:55,602 - 
+Average Fitness: 13.4451  std_fitness 0.46606259706111525 Avg reward 74.9805
+2025-04-07 06:04:55,603 - ___________________finish coarse optimization_____________________
+2025-04-07 06:04:55,603 - morphology: 2, rewardfunc: 1, material cost: 0.06792441889767671 reward: 74.98050358916666 fitness: 13.44507725326504 efficiency: 197.9417339369379
+2025-04-07 06:08:50,504 - Successfully trainning_______morphology3________rewardfunc1
+2025-04-07 06:10:04,640 - 
+Average Fitness: 177.8133  std_fitness 2.8232540591216955 Avg reward 3209.5819
+2025-04-07 06:10:04,641 - ___________________finish coarse optimization_____________________
+2025-04-07 06:10:04,641 - morphology: 3, rewardfunc: 1, material cost: 0.02788783835590477 reward: 3209.5819271832543 fitness: 177.81334526143814 efficiency: 6376.017495231546
+2025-04-07 06:13:57,900 - Successfully trainning_______morphology4________rewardfunc1
+2025-04-07 06:15:11,745 - 
+Average Fitness: 23.1720  std_fitness 1.1127178690468587 Avg reward 175.0695
+2025-04-07 06:15:11,746 - ___________________finish coarse optimization_____________________
+2025-04-07 06:15:11,746 - morphology: 4, rewardfunc: 1, material cost: 0.04627957393999089 reward: 175.06948164578833 fitness: 23.172028191303983 efficiency: 500.6966620166025
+2025-04-07 06:19:05,579 - Successfully trainning_______morphology5________rewardfunc1
+2025-04-07 06:20:19,046 - 
+Average Fitness: 47.6741  std_fitness 14.036731181444624 Avg reward 579.1997
+2025-04-07 06:20:19,047 - ___________________finish coarse optimization_____________________
+2025-04-07 06:20:19,048 - morphology: 5, rewardfunc: 1, material cost: 0.0958723022225834 reward: 579.1997030217336 fitness: 47.67406259659447 efficiency: 497.26627494467846
+2025-04-07 06:24:12,817 - Successfully trainning_______morphology6________rewardfunc1
+2025-04-07 06:25:26,136 - 
+Average Fitness: 97.0683  std_fitness 1.75368927354516 Avg reward 1614.2877
+2025-04-07 06:25:26,139 - ___________________finish coarse optimization_____________________
+2025-04-07 06:25:26,139 - morphology: 6, rewardfunc: 1, material cost: 0.06305576841300711 reward: 1614.2876506429186 fitness: 97.06825620263376 efficiency: 1539.4032718283481
+2025-04-07 06:29:18,942 - Successfully trainning_______morphology7________rewardfunc1
+2025-04-07 06:30:32,568 - 
+Average Fitness: 130.1807  std_fitness 2.6131126028969214 Avg reward 2245.5895
+2025-04-07 06:30:32,569 - ___________________finish coarse optimization_____________________
+2025-04-07 06:30:32,569 - morphology: 7, rewardfunc: 1, material cost: 0.0851678727725528 reward: 2245.589489991278 fitness: 130.18066987038625 efficiency: 1528.5185085935339
+2025-04-07 06:34:25,763 - Successfully trainning_______morphology8________rewardfunc1
+2025-04-07 06:35:39,379 - 
+Average Fitness: 82.3854  std_fitness 0.9098632404807939 Avg reward 1273.8883
+2025-04-07 06:35:39,380 - ___________________finish coarse optimization_____________________
+2025-04-07 06:35:39,380 - morphology: 8, rewardfunc: 1, material cost: 0.06696481753027926 reward: 1273.8882954358098 fitness: 82.38538498698591 efficiency: 1230.2786451965464
+2025-04-07 06:39:32,691 - Successfully trainning_______morphology9________rewardfunc1
+2025-04-07 06:40:45,981 - 
+Average Fitness: 169.0697  std_fitness 1.6926284638105522 Avg reward 3018.2573
+2025-04-07 06:40:45,983 - ___________________finish coarse optimization_____________________
+2025-04-07 06:40:45,983 - morphology: 9, rewardfunc: 1, material cost: 0.059748542514079614 reward: 3018.257252199055 fitness: 169.06968291467885 efficiency: 2829.6871488511697
+2025-04-07 06:44:41,720 - Successfully trainning_______morphology10________rewardfunc1
+2025-04-07 06:45:55,246 - 
+Average Fitness: 159.4038  std_fitness 39.20892086282004 Avg reward 2816.9957
+2025-04-07 06:45:55,247 - ___________________finish coarse optimization_____________________
+2025-04-07 06:45:55,247 - morphology: 10, rewardfunc: 1, material cost: 0.1006908962605068 reward: 2816.995744749221 fitness: 159.40377166681301 efficiency: 1583.1001370213714
+2025-04-07 06:49:48,904 - Successfully trainning_______morphology11________rewardfunc1
+2025-04-07 06:51:03,512 - 
+Average Fitness: 71.1261  std_fitness 6.4747729058867005 Avg reward 1078.2241
+2025-04-07 06:51:03,513 - ___________________finish coarse optimization_____________________
+2025-04-07 06:51:03,513 - morphology: 11, rewardfunc: 1, material cost: 0.029736186202506412 reward: 1078.2241391826062 fitness: 71.12614955471501 efficiency: 2391.9055749227155
+2025-04-07 06:54:57,902 - Successfully trainning_______morphology12________rewardfunc1
+2025-04-07 06:56:11,462 - 
+Average Fitness: 128.0182  std_fitness 10.037709367317458 Avg reward 2169.3242
+2025-04-07 06:56:11,463 - ___________________finish coarse optimization_____________________
+2025-04-07 06:56:11,463 - morphology: 12, rewardfunc: 1, material cost: 0.09752270681461601 reward: 2169.3242194731815 fitness: 128.0181987901255 efficiency: 1312.7014515037952
+2025-04-07 07:00:04,184 - Successfully trainning_______morphology13________rewardfunc1
+2025-04-07 07:01:17,867 - 
+Average Fitness: 24.4992  std_fitness 4.382754514575836 Avg reward 192.8145
+2025-04-07 07:01:17,868 - ___________________finish coarse optimization_____________________
+2025-04-07 07:01:17,869 - morphology: 13, rewardfunc: 1, material cost: 0.04697581382506348 reward: 192.81446705082215 fitness: 24.49918841260679 efficiency: 521.5277058070997
+2025-04-07 07:05:10,511 - Successfully trainning_______morphology14________rewardfunc1
+2025-04-07 07:06:25,338 - 
+Average Fitness: 38.2016  std_fitness 15.948257057455908 Avg reward 479.2090
+2025-04-07 07:06:25,339 - ___________________finish coarse optimization_____________________
+2025-04-07 07:06:25,339 - morphology: 14, rewardfunc: 1, material cost: 0.24722650026674492 reward: 479.2090350963935 fitness: 38.201558142922146 efficiency: 154.52048264124028
+2025-04-07 07:10:19,363 - Successfully trainning_______morphology15________rewardfunc1
+2025-04-07 07:11:32,907 - 
+Average Fitness: 113.4879  std_fitness 37.88513763747635 Avg reward 1891.1259
+2025-04-07 07:11:32,908 - ___________________finish coarse optimization_____________________
+2025-04-07 07:11:32,908 - morphology: 15, rewardfunc: 1, material cost: 0.035198754911527005 reward: 1891.1259179605756 fitness: 113.4879171484064 efficiency: 3224.202601303974
+2025-04-07 07:15:27,317 - Successfully trainning_______morphology16________rewardfunc1
+2025-04-07 07:16:41,368 - 
+Average Fitness: 14.6562  std_fitness 10.249452426114514 Avg reward 44.6161
+2025-04-07 07:16:41,369 - ___________________finish coarse optimization_____________________
+2025-04-07 07:16:41,369 - morphology: 16, rewardfunc: 1, material cost: 0.08967844006044241 reward: 44.61606970238439 fitness: 14.656210513721284 efficiency: 163.43070311931316
+2025-04-07 07:20:37,906 - Successfully trainning_______morphology17________rewardfunc1
+2025-04-07 07:21:51,590 - 
+Average Fitness: 218.1488  std_fitness 5.988158307765483 Avg reward 4018.2663
+2025-04-07 07:21:51,591 - ___________________finish coarse optimization_____________________
+2025-04-07 07:21:51,591 - morphology: 17, rewardfunc: 1, material cost: 0.07245957880768267 reward: 4018.2662837314765 fitness: 218.14876530077615 efficiency: 3010.6270128863416
+2025-04-07 07:25:44,230 - Successfully trainning_______morphology18________rewardfunc1
+2025-04-07 07:26:58,301 - 
+Average Fitness: 121.7287  std_fitness 2.448324836319547 Avg reward 2051.8445
+2025-04-07 07:26:58,302 - ___________________finish coarse optimization_____________________
+2025-04-07 07:26:58,302 - morphology: 18, rewardfunc: 1, material cost: 0.04188447677147288 reward: 2051.844530712999 fitness: 121.7287127967212 efficiency: 2906.296608666948
+2025-04-07 07:30:53,501 - Successfully trainning_______morphology19________rewardfunc1
+2025-04-07 07:32:07,776 - 
+Average Fitness: 98.1365  std_fitness 1.0816706842798958 Avg reward 1654.3352
+2025-04-07 07:32:07,778 - ___________________finish coarse optimization_____________________
+2025-04-07 07:32:07,778 - morphology: 19, rewardfunc: 1, material cost: 0.22245834546621543 reward: 1654.3351806259293 fitness: 98.1365393924705 efficiency: 441.1456858892013
+2025-04-07 07:35:59,575 - Successfully trainning_______morphology20________rewardfunc1
+2025-04-07 07:37:13,332 - 
+Average Fitness: 156.4750  std_fitness 2.3677381594430793 Avg reward 2776.1918
+2025-04-07 07:37:13,333 - ___________________finish coarse optimization_____________________
+2025-04-07 07:37:13,334 - morphology: 20, rewardfunc: 1, material cost: 0.18531095580705348 reward: 2776.191796346749 fitness: 156.4750260890247 efficiency: 844.3916626923404
+2025-04-07 07:41:05,864 - Successfully trainning_______morphology21________rewardfunc1
+2025-04-07 07:42:19,483 - 
+Average Fitness: 81.6812  std_fitness 1.3683166617384401 Avg reward 1326.1365
+2025-04-07 07:42:19,484 - ___________________finish coarse optimization_____________________
+2025-04-07 07:42:19,484 - morphology: 21, rewardfunc: 1, material cost: 0.031165171876013698 reward: 1326.1365475654875 fitness: 81.68115797260988 efficiency: 2620.911519357795
+2025-04-07 07:46:12,902 - Successfully trainning_______morphology22________rewardfunc1
+2025-04-07 07:47:27,203 - 
+Average Fitness: 23.3646  std_fitness 19.840212600939584 Avg reward 187.6640
+2025-04-07 07:47:27,204 - ___________________finish coarse optimization_____________________
+2025-04-07 07:47:27,204 - morphology: 22, rewardfunc: 1, material cost: 0.07355695730089304 reward: 187.6640445016449 fitness: 23.364611227477965 efficiency: 317.6397187271135
+2025-04-07 07:51:20,854 - Successfully trainning_______morphology23________rewardfunc1
+2025-04-07 07:52:35,214 - 
+Average Fitness: 79.2870  std_fitness 61.92429533876251 Avg reward 1264.6813
+2025-04-07 07:52:35,215 - ___________________finish coarse optimization_____________________
+2025-04-07 07:52:35,216 - morphology: 23, rewardfunc: 1, material cost: 0.07974747881426071 reward: 1264.681282229668 fitness: 79.28701045546785 efficiency: 994.2259195445497
+2025-04-07 07:56:28,712 - Successfully trainning_______morphology24________rewardfunc1
+2025-04-07 07:57:42,439 - 
+Average Fitness: 73.5382  std_fitness 1.7269395038354824 Avg reward 1088.0383
+2025-04-07 07:57:42,441 - ___________________finish coarse optimization_____________________
+2025-04-07 07:57:42,441 - morphology: 24, rewardfunc: 1, material cost: 0.05596102088859325 reward: 1088.0383040612774 fitness: 73.53820226673254 efficiency: 1314.0968677667945
+2025-04-07 08:01:35,433 - Successfully trainning_______morphology0________rewardfunc2
+2025-04-07 08:02:49,419 - 
+Average Fitness: 0.3042  std_fitness 0.42838642415181377 Avg reward -253.9975
+2025-04-07 08:02:49,420 - ___________________finish coarse optimization_____________________
+2025-04-07 08:02:49,420 - morphology: 0, rewardfunc: 2, material cost: 0.0709562971699176 reward: -253.99746586365845 fitness: 0.3042161392141907 efficiency: 4.287373374144518
+2025-04-07 08:06:47,897 - Successfully trainning_______morphology1________rewardfunc2
+2025-04-07 08:08:01,274 - 
+Average Fitness: 20.0387  std_fitness 1.4773934319083226 Avg reward 118.6439
+2025-04-07 08:08:01,275 - ___________________finish coarse optimization_____________________
+2025-04-07 08:08:01,276 - morphology: 1, rewardfunc: 2, material cost: 0.056555345664974395 reward: 118.64388420900018 fitness: 20.03870697003718 efficiency: 354.32029871665094
+2025-04-07 08:12:00,974 - Successfully trainning_______morphology2________rewardfunc2
+2025-04-07 08:13:14,038 - 
+Average Fitness: 17.6061  std_fitness 0.69382039566139 Avg reward 90.5524
+2025-04-07 08:13:14,040 - ___________________finish coarse optimization_____________________
+2025-04-07 08:13:14,041 - morphology: 2, rewardfunc: 2, material cost: 0.06792441889767671 reward: 90.55242058311836 fitness: 17.606110344888112 efficiency: 259.2014864552682
+2025-04-07 08:17:11,612 - Successfully trainning_______morphology3________rewardfunc2
+2025-04-07 08:18:24,570 - 
+Average Fitness: 172.6575  std_fitness 3.3631854538448662 Avg reward 3108.4819
+2025-04-07 08:18:24,571 - ___________________finish coarse optimization_____________________
+2025-04-07 08:18:24,572 - morphology: 3, rewardfunc: 2, material cost: 0.02788783835590477 reward: 3108.481898235803 fitness: 172.65749396963446 efficiency: 6191.139369289883
+2025-04-07 08:22:24,997 - Successfully trainning_______morphology4________rewardfunc2
+2025-04-07 08:23:38,292 - 
+Average Fitness: 22.2488  std_fitness 2.6118015074521344 Avg reward 190.9047
+2025-04-07 08:23:38,293 - ___________________finish coarse optimization_____________________
+2025-04-07 08:23:38,294 - morphology: 4, rewardfunc: 2, material cost: 0.04627957393999089 reward: 190.904694530546 fitness: 22.248832517855213 efficiency: 480.74843011097073
+2025-04-07 08:27:35,348 - Successfully trainning_______morphology5________rewardfunc2
+2025-04-07 08:28:48,077 - 
+Average Fitness: 76.6473  std_fitness 18.958803501135634 Avg reward 1152.1121
+2025-04-07 08:28:48,078 - ___________________finish coarse optimization_____________________
+2025-04-07 08:28:48,078 - morphology: 5, rewardfunc: 2, material cost: 0.0958723022225834 reward: 1152.1121431968088 fitness: 76.64728652244968 efficiency: 799.4726813224984
+2025-04-07 08:32:46,725 - Successfully trainning_______morphology6________rewardfunc2
+2025-04-07 08:34:00,564 - 
+Average Fitness: 111.8971  std_fitness 1.8306668880131418 Avg reward 1878.8446
+2025-04-07 08:34:00,565 - ___________________finish coarse optimization_____________________
+2025-04-07 08:34:00,566 - morphology: 6, rewardfunc: 2, material cost: 0.06305576841300711 reward: 1878.8445834238557 fitness: 111.89713217187239 efficiency: 1774.5740792334916
+2025-04-07 08:37:58,999 - Successfully trainning_______morphology7________rewardfunc2
+2025-04-07 08:39:11,951 - 
+Average Fitness: 130.8313  std_fitness 13.608843646692296 Avg reward 2244.9660
+2025-04-07 08:39:11,952 - ___________________finish coarse optimization_____________________
+2025-04-07 08:39:11,953 - morphology: 7, rewardfunc: 2, material cost: 0.0851678727725528 reward: 2244.9660349771325 fitness: 130.8313494447441 efficiency: 1536.1584736786726
+2025-04-07 08:43:09,214 - Successfully trainning_______morphology8________rewardfunc2
+2025-04-07 08:44:22,720 - 
+Average Fitness: 80.3586  std_fitness 0.9470679900912262 Avg reward 1256.2426
+2025-04-07 08:44:22,721 - ___________________finish coarse optimization_____________________
+2025-04-07 08:44:22,721 - morphology: 8, rewardfunc: 2, material cost: 0.06696481753027926 reward: 1256.2426377030079 fitness: 80.35861842539043 efficiency: 1200.0125049105814
+2025-04-07 08:48:20,146 - Successfully trainning_______morphology9________rewardfunc2
+2025-04-07 08:49:33,399 - 
+Average Fitness: 166.5914  std_fitness 2.1453688794147814 Avg reward 2969.1237
+2025-04-07 08:49:33,401 - ___________________finish coarse optimization_____________________
+2025-04-07 08:49:33,401 - morphology: 9, rewardfunc: 2, material cost: 0.059748542514079614 reward: 2969.1237058480783 fitness: 166.5914265185078 efficiency: 2788.2090425762417
+2025-04-07 08:53:33,327 - Successfully trainning_______morphology10________rewardfunc2
+2025-04-07 08:54:46,847 - 
+Average Fitness: 161.6835  std_fitness 47.96327311468927 Avg reward 2857.3264
+2025-04-07 08:54:46,848 - ___________________finish coarse optimization_____________________
+2025-04-07 08:54:46,849 - morphology: 10, rewardfunc: 2, material cost: 0.1006908962605068 reward: 2857.326394710678 fitness: 161.68354338234604 efficiency: 1605.7414263553628
+2025-04-07 08:58:45,720 - Successfully trainning_______morphology11________rewardfunc2
+2025-04-07 08:59:58,638 - 
+Average Fitness: 75.4499  std_fitness 0.694049279114431 Avg reward 1154.5740
+2025-04-07 08:59:58,640 - ___________________finish coarse optimization_____________________
+2025-04-07 08:59:58,640 - morphology: 11, rewardfunc: 2, material cost: 0.029736186202506412 reward: 1154.5739975841395 fitness: 75.44992117025579 efficiency: 2537.309951465674
+2025-04-07 09:03:57,567 - Successfully trainning_______morphology12________rewardfunc2
+2025-04-07 09:05:10,721 - 
+Average Fitness: 109.5523  std_fitness 34.8531052464721 Avg reward 1815.5995
+2025-04-07 09:05:10,722 - ___________________finish coarse optimization_____________________
+2025-04-07 09:05:10,722 - morphology: 12, rewardfunc: 2, material cost: 0.09752270681461601 reward: 1815.5995131176942 fitness: 109.55233545394434 efficiency: 1123.3520790414054
+2025-04-07 09:09:09,837 - Successfully trainning_______morphology13________rewardfunc2
+2025-04-07 09:10:24,442 - 
+Average Fitness: 8.8180  std_fitness 5.253811601714147 Avg reward -104.9126
+2025-04-07 09:10:24,443 - ___________________finish coarse optimization_____________________
+2025-04-07 09:10:24,443 - morphology: 13, rewardfunc: 2, material cost: 0.04697581382506348 reward: -104.91257847260391 fitness: 8.817982502121252 efficiency: 187.71324611765436
+2025-04-07 09:14:24,105 - Successfully trainning_______morphology14________rewardfunc2
+2025-04-07 09:15:37,438 - 
+Average Fitness: 86.7952  std_fitness 41.851467730952926 Avg reward 1373.1020
+2025-04-07 09:15:37,440 - ___________________finish coarse optimization_____________________
+2025-04-07 09:15:37,440 - morphology: 14, rewardfunc: 2, material cost: 0.24722650026674492 reward: 1373.1019592976809 fitness: 86.79515533966543 efficiency: 351.0754520491041
+2025-04-07 09:19:32,770 - Successfully trainning_______morphology15________rewardfunc2
+2025-04-07 09:20:46,734 - 
+Average Fitness: 105.3577  std_fitness 44.1859515327273 Avg reward 1749.5439
+2025-04-07 09:20:46,735 - ___________________finish coarse optimization_____________________
+2025-04-07 09:20:46,735 - morphology: 15, rewardfunc: 2, material cost: 0.035198754911527005 reward: 1749.5438539101983 fitness: 105.35768853283327 efficiency: 2993.2220272464915
+2025-04-07 09:24:43,666 - Successfully trainning_______morphology16________rewardfunc2
+2025-04-07 09:25:56,461 - 
+Average Fitness: 58.8167  std_fitness 9.474562788199982 Avg reward 832.0919
+2025-04-07 09:25:56,462 - ___________________finish coarse optimization_____________________
+2025-04-07 09:25:56,462 - morphology: 16, rewardfunc: 2, material cost: 0.08967844006044241 reward: 832.09190565517 fitness: 58.816656008133776 efficiency: 655.8617207044626
+2025-04-07 09:29:56,218 - Successfully trainning_______morphology17________rewardfunc2
+2025-04-07 09:31:08,696 - 
+Average Fitness: 211.2934  std_fitness 4.865427119633835 Avg reward 3896.4261
+2025-04-07 09:31:08,697 - ___________________finish coarse optimization_____________________
+2025-04-07 09:31:08,697 - morphology: 17, rewardfunc: 2, material cost: 0.07245957880768267 reward: 3896.4261313986913 fitness: 211.29340658076467 efficiency: 2916.017592947447
+2025-04-07 09:35:08,109 - Successfully trainning_______morphology18________rewardfunc2
+2025-04-07 09:36:23,255 - 
+Average Fitness: 121.3635  std_fitness 2.7941627823088346 Avg reward 2021.8262
+2025-04-07 09:36:23,256 - ___________________finish coarse optimization_____________________
+2025-04-07 09:36:23,256 - morphology: 18, rewardfunc: 2, material cost: 0.04188447677147288 reward: 2021.8261708540522 fitness: 121.36353233969761 efficiency: 2897.5778544846753
+2025-04-07 09:40:19,665 - Successfully trainning_______morphology19________rewardfunc2
+2025-04-07 09:41:33,099 - 
+Average Fitness: 94.4311  std_fitness 1.123890690865051 Avg reward 1583.3353
+2025-04-07 09:41:33,100 - ___________________finish coarse optimization_____________________
+2025-04-07 09:41:33,100 - morphology: 19, rewardfunc: 2, material cost: 0.22245834546621543 reward: 1583.3353177772326 fitness: 94.43109127684689 efficiency: 424.48886814717434
+2025-04-07 09:45:27,400 - Successfully trainning_______morphology20________rewardfunc2
+2025-04-07 09:46:41,703 - 
+Average Fitness: 144.2800  std_fitness 30.112902653074695 Avg reward 2512.1979
+2025-04-07 09:46:41,704 - ___________________finish coarse optimization_____________________
+2025-04-07 09:46:41,704 - morphology: 20, rewardfunc: 2, material cost: 0.18531095580705348 reward: 2512.1979082303824 fitness: 144.27997146614058 efficiency: 778.5830623871234
+2025-04-07 09:50:31,994 - Successfully trainning_______morphology21________rewardfunc2
+2025-04-07 09:51:47,730 - 
+Average Fitness: 82.5380  std_fitness 1.3975653833296444 Avg reward 1356.3332
+2025-04-07 09:51:47,731 - ___________________finish coarse optimization_____________________
+2025-04-07 09:51:47,732 - morphology: 21, rewardfunc: 2, material cost: 0.031165171876013698 reward: 1356.3332288992615 fitness: 82.5379942583087 efficiency: 2648.4049113117244
+2025-04-07 09:55:33,623 - Successfully trainning_______morphology22________rewardfunc2
+2025-04-07 09:56:49,873 - 
+Average Fitness: 57.6025  std_fitness 32.14252555502399 Avg reward 823.0985
+2025-04-07 09:56:49,875 - ___________________finish coarse optimization_____________________
+2025-04-07 09:56:49,875 - morphology: 22, rewardfunc: 2, material cost: 0.07355695730089304 reward: 823.0985265290434 fitness: 57.6024849630065 efficiency: 783.1004309677606
+2025-04-07 10:00:40,498 - Successfully trainning_______morphology23________rewardfunc2
+2025-04-07 10:01:58,307 - 
+Average Fitness: 205.2080  std_fitness 4.821293001028583 Avg reward 3738.1616
+2025-04-07 10:01:58,309 - ___________________finish coarse optimization_____________________
+2025-04-07 10:01:58,310 - morphology: 23, rewardfunc: 2, material cost: 0.07974747881426071 reward: 3738.1616090816237 fitness: 205.20804096973083 efficiency: 2573.222928434884
+2025-04-07 10:05:51,226 - Successfully trainning_______morphology24________rewardfunc2
+2025-04-07 10:07:09,901 - 
+Average Fitness: 76.9928  std_fitness 2.0270049927139393 Avg reward 1160.9970
+2025-04-07 10:07:09,902 - ___________________finish coarse optimization_____________________
+2025-04-07 10:07:09,903 - morphology: 24, rewardfunc: 2, material cost: 0.05596102088859325 reward: 1160.9970372170305 fitness: 76.99276945752548 efficiency: 1375.8285362735264
+2025-04-07 10:11:02,798 - Successfully trainning_______morphology0________rewardfunc3
+2025-04-07 10:12:20,562 - 
+Average Fitness: 14.5523  std_fitness 1.6254185408827235 Avg reward -28.8811
+2025-04-07 10:12:20,563 - ___________________finish coarse optimization_____________________
+2025-04-07 10:12:20,564 - morphology: 0, rewardfunc: 3, material cost: 0.0709562971699176 reward: -28.881086648168772 fitness: 14.552334465403726 efficiency: 205.0886960822596
+2025-04-07 10:16:13,518 - Successfully trainning_______morphology1________rewardfunc3
+2025-04-07 10:17:31,841 - 
+Average Fitness: 18.0730  std_fitness 0.8537011840799619 Avg reward 93.8984
+2025-04-07 10:17:31,844 - ___________________finish coarse optimization_____________________
+2025-04-07 10:17:31,844 - morphology: 1, rewardfunc: 3, material cost: 0.056555345664974395 reward: 93.89843937325055 fitness: 18.072999641029323 efficiency: 319.5630656753675
+2025-04-07 10:21:25,520 - Successfully trainning_______morphology2________rewardfunc3
+2025-04-07 10:22:43,587 - 
+Average Fitness: 17.2689  std_fitness 0.6480640413190267 Avg reward 125.9761
+2025-04-07 10:22:43,588 - ___________________finish coarse optimization_____________________
+2025-04-07 10:22:43,588 - morphology: 2, rewardfunc: 3, material cost: 0.06792441889767671 reward: 125.97610812450993 fitness: 17.2688674555898 efficiency: 254.2365136992061
+2025-04-07 10:26:36,317 - Successfully trainning_______morphology3________rewardfunc3
+2025-04-07 10:27:54,606 - 
+Average Fitness: 172.9681  std_fitness 2.64881737362732 Avg reward 3122.4018
+2025-04-07 10:27:54,607 - ___________________finish coarse optimization_____________________
+2025-04-07 10:27:54,608 - morphology: 3, rewardfunc: 3, material cost: 0.02788783835590477 reward: 3122.401807518593 fitness: 172.96809894261395 efficiency: 6202.277018935422
+2025-04-07 10:31:46,043 - Successfully trainning_______morphology4________rewardfunc3
+2025-04-07 10:33:04,014 - 
+Average Fitness: 25.0182  std_fitness 2.7827990759770933 Avg reward 237.6189
+2025-04-07 10:33:04,015 - ___________________finish coarse optimization_____________________
+2025-04-07 10:33:04,015 - morphology: 4, rewardfunc: 3, material cost: 0.04627957393999089 reward: 237.6188893395466 fitness: 25.01821343073793 efficiency: 540.5886722980246
+2025-04-07 10:36:57,494 - Successfully trainning_______morphology5________rewardfunc3
+2025-04-07 10:38:16,199 - 
+Average Fitness: 112.9805  std_fitness 52.000266358152125 Avg reward 1896.2441
+2025-04-07 10:38:16,201 - ___________________finish coarse optimization_____________________
+2025-04-07 10:38:16,201 - morphology: 5, rewardfunc: 3, material cost: 0.0958723022225834 reward: 1896.2440717059712 fitness: 112.98047539583388 efficiency: 1178.4475054487689
+2025-04-07 10:42:09,216 - Successfully trainning_______morphology6________rewardfunc3
+2025-04-07 10:43:28,014 - 
+Average Fitness: 106.1143  std_fitness 3.007607564945738 Avg reward 1786.2431
+2025-04-07 10:43:28,015 - ___________________finish coarse optimization_____________________
+2025-04-07 10:43:28,015 - morphology: 6, rewardfunc: 3, material cost: 0.06305576841300711 reward: 1786.2431488745754 fitness: 106.11429392438131 efficiency: 1682.8641787274153
+2025-04-07 10:47:20,217 - Successfully trainning_______morphology7________rewardfunc3
+2025-04-07 10:48:37,888 - 
+Average Fitness: 123.1780  std_fitness 2.1745229962723847 Avg reward 2124.7741
+2025-04-07 10:48:37,890 - ___________________finish coarse optimization_____________________
+2025-04-07 10:48:37,890 - morphology: 7, rewardfunc: 3, material cost: 0.0851678727725528 reward: 2124.774061627698 fitness: 123.17797581837384 efficiency: 1446.2962594748594
+2025-04-07 10:52:31,063 - Successfully trainning_______morphology8________rewardfunc3
+2025-04-07 10:53:50,359 - 
+Average Fitness: 81.8250  std_fitness 0.8637723328238025 Avg reward 1267.9264
+2025-04-07 10:53:50,360 - ___________________finish coarse optimization_____________________
+2025-04-07 10:53:50,361 - morphology: 8, rewardfunc: 3, material cost: 0.06696481753027926 reward: 1267.9264232981918 fitness: 81.82500235230087 efficiency: 1221.9103309779398
+2025-04-07 10:57:42,880 - Successfully trainning_______morphology9________rewardfunc3
+2025-04-07 10:59:00,741 - 
+Average Fitness: 162.8119  std_fitness 1.7872835433253236 Avg reward 2900.9366
+2025-04-07 10:59:00,743 - ___________________finish coarse optimization_____________________
+2025-04-07 10:59:00,743 - morphology: 9, rewardfunc: 3, material cost: 0.059748542514079614 reward: 2900.936628133285 fitness: 162.8118938347244 efficiency: 2724.9517224015653
+2025-04-07 11:02:49,529 - Successfully trainning_______morphology10________rewardfunc3
+2025-04-07 11:04:06,953 - 
+Average Fitness: 107.3539  std_fitness 13.880673241789157 Avg reward 1756.7268
+2025-04-07 11:04:06,954 - ___________________finish coarse optimization_____________________
+2025-04-07 11:04:06,954 - morphology: 10, rewardfunc: 3, material cost: 0.1006908962605068 reward: 1756.7267765556276 fitness: 107.35390032665582 efficiency: 1066.1728548816423
+2025-04-07 11:07:54,820 - Successfully trainning_______morphology11________rewardfunc3
+2025-04-07 11:09:12,866 - 
+Average Fitness: 80.5307  std_fitness 1.2071526214998622 Avg reward 1230.1750
+2025-04-07 11:09:12,867 - ___________________finish coarse optimization_____________________
+2025-04-07 11:09:12,867 - morphology: 11, rewardfunc: 3, material cost: 0.029736186202506412 reward: 1230.1750010387432 fitness: 80.53073308650322 efficiency: 2708.17288195873
+2025-04-07 11:13:08,287 - Successfully trainning_______morphology12________rewardfunc3
+2025-04-07 11:14:26,653 - 
+Average Fitness: 88.9130  std_fitness 37.872350187526635 Avg reward 1434.2975
+2025-04-07 11:14:26,655 - ___________________finish coarse optimization_____________________
+2025-04-07 11:14:26,655 - morphology: 12, rewardfunc: 3, material cost: 0.09752270681461601 reward: 1434.2975328869425 fitness: 88.91295740520977 efficiency: 911.7154384796477
+2025-04-07 11:18:17,445 - Successfully trainning_______morphology13________rewardfunc3
+2025-04-07 11:19:35,457 - 
+Average Fitness: 39.3657  std_fitness 1.1980752877444887 Avg reward 404.4351
+2025-04-07 11:19:35,458 - ___________________finish coarse optimization_____________________
+2025-04-07 11:19:35,459 - morphology: 13, rewardfunc: 3, material cost: 0.04697581382506348 reward: 404.4351196851345 fitness: 39.36573610296652 efficiency: 838.0000876528364
+2025-04-07 11:23:25,969 - Successfully trainning_______morphology14________rewardfunc3
+2025-04-07 11:24:44,207 - 
+Average Fitness: 29.4643  std_fitness 22.264115841821205 Avg reward 275.8730
+2025-04-07 11:24:44,208 - ___________________finish coarse optimization_____________________
+2025-04-07 11:24:44,208 - morphology: 14, rewardfunc: 3, material cost: 0.24722650026674492 reward: 275.872954993225 fitness: 29.464297818244226 efficiency: 119.17936704379885
+2025-04-07 11:28:34,149 - Successfully trainning_______morphology15________rewardfunc3
+2025-04-07 11:29:51,840 - 
+Average Fitness: 97.1755  std_fitness 42.92385927488037 Avg reward 1589.4265
+2025-04-07 11:29:51,841 - ___________________finish coarse optimization_____________________
+2025-04-07 11:29:51,841 - morphology: 15, rewardfunc: 3, material cost: 0.035198754911527005 reward: 1589.4264506200063 fitness: 97.17552526673653 efficiency: 2760.7659847909326
+2025-04-07 11:33:42,229 - Successfully trainning_______morphology16________rewardfunc3
+2025-04-07 11:35:00,352 - 
+Average Fitness: 31.3460  std_fitness 9.76299767730669 Avg reward 307.5054
+2025-04-07 11:35:00,353 - ___________________finish coarse optimization_____________________
+2025-04-07 11:35:00,353 - morphology: 16, rewardfunc: 3, material cost: 0.08967844006044241 reward: 307.5054045698508 fitness: 31.346047013211322 efficiency: 349.53827243297707
+2025-04-07 11:38:50,740 - Successfully trainning_______morphology17________rewardfunc3
+2025-04-07 11:40:08,245 - 
+Average Fitness: 213.2021  std_fitness 5.525940053640658 Avg reward 3911.0923
+2025-04-07 11:40:08,246 - ___________________finish coarse optimization_____________________
+2025-04-07 11:40:08,246 - morphology: 17, rewardfunc: 3, material cost: 0.07245957880768267 reward: 3911.092269299102 fitness: 213.20207440718926 efficiency: 2942.358731797984
+2025-04-07 11:43:58,596 - Successfully trainning_______morphology18________rewardfunc3
+2025-04-07 11:45:16,400 - 
+Average Fitness: 122.9126  std_fitness 2.9064549993078965 Avg reward 2044.6788
+2025-04-07 11:45:16,401 - ___________________finish coarse optimization_____________________
+2025-04-07 11:45:16,401 - morphology: 18, rewardfunc: 3, material cost: 0.04188447677147288 reward: 2044.6788329480723 fitness: 122.9125876319281 efficiency: 2934.561849788767
+2025-04-07 11:49:06,082 - Successfully trainning_______morphology19________rewardfunc3
+2025-04-07 11:50:23,722 - 
+Average Fitness: 98.0784  std_fitness 1.045026583056691 Avg reward 1640.1638
+2025-04-07 11:50:23,723 - ___________________finish coarse optimization_____________________
+2025-04-07 11:50:23,723 - morphology: 19, rewardfunc: 3, material cost: 0.22245834546621543 reward: 1640.16377510653 fitness: 98.07839849907063 efficiency: 440.884329574256
+2025-04-07 11:54:13,136 - Successfully trainning_______morphology20________rewardfunc3
+2025-04-07 11:55:30,290 - 
+Average Fitness: 155.9441  std_fitness 7.910502226603331 Avg reward 2751.2787
+2025-04-07 11:55:30,291 - ___________________finish coarse optimization_____________________
+2025-04-07 11:55:30,291 - morphology: 20, rewardfunc: 3, material cost: 0.18531095580705348 reward: 2751.278676832652 fitness: 155.94406802124934 efficiency: 841.5264350782311
+2025-04-07 11:59:20,982 - Successfully trainning_______morphology21________rewardfunc3
+2025-04-07 12:00:39,085 - 
+Average Fitness: 81.3789  std_fitness 1.2140382432534411 Avg reward 1338.4129
+2025-04-07 12:00:39,086 - ___________________finish coarse optimization_____________________
+2025-04-07 12:00:39,087 - morphology: 21, rewardfunc: 3, material cost: 0.031165171876013698 reward: 1338.4129479604599 fitness: 81.3789018541996 efficiency: 2611.21299692985
+2025-04-07 12:04:24,520 - Successfully trainning_______morphology22________rewardfunc3
+2025-04-07 12:05:39,937 - 
+Average Fitness: 60.3535  std_fitness 26.13575868065867 Avg reward 916.0006
+2025-04-07 12:05:39,939 - ___________________finish coarse optimization_____________________
+2025-04-07 12:05:39,939 - morphology: 22, rewardfunc: 3, material cost: 0.07355695730089304 reward: 916.0006451597187 fitness: 60.35346808161573 efficiency: 820.499790859117
+2025-04-07 12:09:22,950 - Successfully trainning_______morphology23________rewardfunc3
+2025-04-07 12:10:39,010 - 
+Average Fitness: 153.1381  std_fitness 60.67693890159883 Avg reward 2708.8616
+2025-04-07 12:10:39,011 - ___________________finish coarse optimization_____________________
+2025-04-07 12:10:39,011 - morphology: 23, rewardfunc: 3, material cost: 0.07974747881426071 reward: 2708.861598724507 fitness: 153.13806122257003 efficiency: 1920.287180228516
+2025-04-07 12:14:24,075 - Successfully trainning_______morphology24________rewardfunc3
+2025-04-07 12:15:39,858 - 
+Average Fitness: 69.2692  std_fitness 6.2266736586719285 Avg reward 1014.9441
+2025-04-07 12:15:39,859 - ___________________finish coarse optimization_____________________
+2025-04-07 12:15:39,859 - morphology: 24, rewardfunc: 3, material cost: 0.05596102088859325 reward: 1014.9440884930148 fitness: 69.26923432231224 efficiency: 1237.8121989627903
+2025-04-07 12:19:25,775 - Successfully trainning_______morphology0________rewardfunc4
+2025-04-07 12:20:42,679 - 
+Average Fitness: 9.4743  std_fitness 0.9938197692426045 Avg reward -62.7055
+2025-04-07 12:20:42,681 - ___________________finish coarse optimization_____________________
+2025-04-07 12:20:42,681 - morphology: 0, rewardfunc: 4, material cost: 0.0709562971699176 reward: -62.70546256297793 fitness: 9.474326530422193 efficiency: 133.52340677719155
+2025-04-07 12:24:29,302 - Successfully trainning_______morphology1________rewardfunc4
+2025-04-07 12:25:45,464 - 
+Average Fitness: 25.2036  std_fitness 0.8907069948531431 Avg reward 209.6157
+2025-04-07 12:25:45,466 - ___________________finish coarse optimization_____________________
+2025-04-07 12:25:45,466 - morphology: 1, rewardfunc: 4, material cost: 0.056555345664974395 reward: 209.6156641509299 fitness: 25.203614242125617 efficiency: 445.6451277201654
+2025-04-07 12:29:32,081 - Successfully trainning_______morphology2________rewardfunc4
+2025-04-07 12:30:48,611 - 
+Average Fitness: 16.4450  std_fitness 1.71099114389623 Avg reward 133.1327
+2025-04-07 12:30:48,613 - ___________________finish coarse optimization_____________________
+2025-04-07 12:30:48,613 - morphology: 2, rewardfunc: 4, material cost: 0.06792441889767671 reward: 133.1327389352458 fitness: 16.445011790629415 efficiency: 242.10750798475954
+2025-04-07 12:34:38,381 - Successfully trainning_______morphology3________rewardfunc4
+2025-04-07 12:35:55,565 - 
+Average Fitness: 170.4625  std_fitness 2.8122200954973198 Avg reward 3080.9181
+2025-04-07 12:35:55,567 - ___________________finish coarse optimization_____________________
+2025-04-07 12:35:55,567 - morphology: 3, rewardfunc: 4, material cost: 0.02788783835590477 reward: 3080.918138664544 fitness: 170.46254888973834 efficiency: 6112.43319450917
+2025-04-07 12:39:46,201 - Successfully trainning_______morphology4________rewardfunc4
+2025-04-07 12:41:04,558 - 
+Average Fitness: 21.1006  std_fitness 1.093832826796591 Avg reward 192.3084
+2025-04-07 12:41:04,560 - ___________________finish coarse optimization_____________________
+2025-04-07 12:41:04,560 - morphology: 4, rewardfunc: 4, material cost: 0.04627957393999089 reward: 192.30837252044253 fitness: 21.100583483155972 efficiency: 455.93728910547804
+2025-04-07 12:44:54,718 - Successfully trainning_______morphology5________rewardfunc4
+2025-04-07 12:46:13,069 - 
+Average Fitness: 63.0565  std_fitness 24.569646984537187 Avg reward 916.1321
+2025-04-07 12:46:13,071 - ___________________finish coarse optimization_____________________
+2025-04-07 12:46:13,071 - morphology: 5, rewardfunc: 4, material cost: 0.0958723022225834 reward: 916.1321243969563 fitness: 63.05648501909296 efficiency: 657.7132660556842
+2025-04-07 12:50:03,131 - Successfully trainning_______morphology6________rewardfunc4
+2025-04-07 12:51:20,472 - 
+Average Fitness: 105.0291  std_fitness 1.3127479332673413 Avg reward 1773.9744
+2025-04-07 12:51:20,473 - ___________________finish coarse optimization_____________________
+2025-04-07 12:51:20,474 - morphology: 6, rewardfunc: 4, material cost: 0.06305576841300711 reward: 1773.9743665070646 fitness: 105.02911482962426 efficiency: 1665.6543480954379
+2025-04-07 12:55:11,124 - Successfully trainning_______morphology7________rewardfunc4
+2025-04-07 12:56:28,693 - 
+Average Fitness: 127.3741  std_fitness 2.5210713228649717 Avg reward 2190.4724
+2025-04-07 12:56:28,694 - ___________________finish coarse optimization_____________________
+2025-04-07 12:56:28,694 - morphology: 7, rewardfunc: 4, material cost: 0.0851678727725528 reward: 2190.4723628407396 fitness: 127.37410754771149 efficiency: 1495.565210227495
+2025-04-07 13:00:19,721 - Successfully trainning_______morphology8________rewardfunc4
+2025-04-07 13:01:38,222 - 
+Average Fitness: 81.8464  std_fitness 0.7217400601205153 Avg reward 1291.3096
+2025-04-07 13:01:38,223 - ___________________finish coarse optimization_____________________
+2025-04-07 13:01:38,224 - morphology: 8, rewardfunc: 4, material cost: 0.06696481753027926 reward: 1291.3095942176399 fitness: 81.84639609494938 efficiency: 1222.229808330937
+2025-04-07 13:05:28,164 - Successfully trainning_______morphology9________rewardfunc4
+2025-04-07 13:06:45,188 - 
+Average Fitness: 164.4396  std_fitness 1.8216300150912803 Avg reward 2930.4830
+2025-04-07 13:06:45,190 - ___________________finish coarse optimization_____________________
+2025-04-07 13:06:45,190 - morphology: 9, rewardfunc: 4, material cost: 0.059748542514079614 reward: 2930.4830488992784 fitness: 164.4395847966947 efficiency: 2752.1940766663033
+2025-04-07 13:10:34,629 - Successfully trainning_______morphology10________rewardfunc4
+2025-04-07 13:11:52,416 - 
+Average Fitness: 143.2919  std_fitness 23.049357882828648 Avg reward 2484.5580
+2025-04-07 13:11:52,417 - ___________________finish coarse optimization_____________________
+2025-04-07 13:11:52,417 - morphology: 10, rewardfunc: 4, material cost: 0.1006908962605068 reward: 2484.558002933323 fitness: 143.2918862861484 efficiency: 1423.0868093121808
+2025-04-07 13:15:42,984 - Successfully trainning_______morphology11________rewardfunc4
+2025-04-07 13:17:00,731 - 
+Average Fitness: 82.9874  std_fitness 1.6017736504339342 Avg reward 1277.9624
+2025-04-07 13:17:00,732 - ___________________finish coarse optimization_____________________
+2025-04-07 13:17:00,733 - morphology: 11, rewardfunc: 4, material cost: 0.029736186202506412 reward: 1277.9623896219282 fitness: 82.98741818518415 efficiency: 2790.7888933715813
+2025-04-07 13:20:48,924 - Successfully trainning_______morphology12________rewardfunc4
+2025-04-07 13:22:05,995 - 
+Average Fitness: 131.2703  std_fitness 4.063195558445768 Avg reward 2251.1685
+2025-04-07 13:22:05,997 - ___________________finish coarse optimization_____________________
+2025-04-07 13:22:05,998 - morphology: 12, rewardfunc: 4, material cost: 0.09752270681461601 reward: 2251.1685296086753 fitness: 131.27025424727765 efficiency: 1346.04810033435
+2025-04-07 13:25:55,482 - Successfully trainning_______morphology13________rewardfunc4
+2025-04-07 13:27:12,814 - 
+Average Fitness: 47.9973  std_fitness 33.1728191900272 Avg reward 614.0800
+2025-04-07 13:27:12,816 - ___________________finish coarse optimization_____________________
+2025-04-07 13:27:12,816 - morphology: 13, rewardfunc: 4, material cost: 0.04697581382506348 reward: 614.0799504965906 fitness: 47.997269815333496 efficiency: 1021.7442957789701
+2025-04-07 13:31:01,454 - Successfully trainning_______morphology14________rewardfunc4
+2025-04-07 13:32:19,137 - 
+Average Fitness: 43.8123  std_fitness 5.286319086212546 Avg reward 559.0074
+2025-04-07 13:32:19,138 - ___________________finish coarse optimization_____________________
+2025-04-07 13:32:19,139 - morphology: 14, rewardfunc: 4, material cost: 0.24722650026674492 reward: 559.0074218775619 fitness: 43.812272021448194 efficiency: 177.21511235315373
+2025-04-07 13:36:07,870 - Successfully trainning_______morphology15________rewardfunc4
+2025-04-07 13:37:24,651 - 
+Average Fitness: 95.7055  std_fitness 39.86474318067236 Avg reward 1569.9576
+2025-04-07 13:37:24,652 - ___________________finish coarse optimization_____________________
+2025-04-07 13:37:24,653 - morphology: 15, rewardfunc: 4, material cost: 0.035198754911527005 reward: 1569.9575735091464 fitness: 95.7055473556953 efficiency: 2719.0037714758296
+2025-04-07 13:41:14,014 - Successfully trainning_______morphology16________rewardfunc4
+2025-04-07 13:42:30,736 - 
+Average Fitness: 47.6388  std_fitness 8.85038709303385 Avg reward 635.8872
+2025-04-07 13:42:30,737 - ___________________finish coarse optimization_____________________
+2025-04-07 13:42:30,737 - morphology: 16, rewardfunc: 4, material cost: 0.08967844006044241 reward: 635.8872292168982 fitness: 47.63877311480782 efficiency: 531.2176826748964
+2025-04-07 13:46:18,936 - Successfully trainning_______morphology17________rewardfunc4
+2025-04-07 13:47:35,550 - 
+Average Fitness: 219.6373  std_fitness 4.8395166449517175 Avg reward 4069.5959
+2025-04-07 13:47:35,551 - ___________________finish coarse optimization_____________________
+2025-04-07 13:47:35,551 - morphology: 17, rewardfunc: 4, material cost: 0.07245957880768267 reward: 4069.5959476270305 fitness: 219.63731423414237 efficiency: 3031.170175817457
+2025-04-07 13:51:23,863 - Successfully trainning_______morphology18________rewardfunc4
+2025-04-07 13:52:41,111 - 
+Average Fitness: 119.8658  std_fitness 11.83082046965511 Avg reward 1975.0258
+2025-04-07 13:52:41,112 - ___________________finish coarse optimization_____________________
+2025-04-07 13:52:41,113 - morphology: 18, rewardfunc: 4, material cost: 0.04188447677147288 reward: 1975.0258060609485 fitness: 119.86577404753162 efficiency: 2861.818584998322
+2025-04-07 13:56:29,707 - Successfully trainning_______morphology19________rewardfunc4
+2025-04-07 13:57:47,208 - 
+Average Fitness: 94.2565  std_fitness 1.227562452415364 Avg reward 1573.6534
+2025-04-07 13:57:47,209 - ___________________finish coarse optimization_____________________
+2025-04-07 13:57:47,210 - morphology: 19, rewardfunc: 4, material cost: 0.22245834546621543 reward: 1573.6534463456223 fitness: 94.25654752898117 efficiency: 423.7042549761112
+2025-04-07 14:01:35,289 - Successfully trainning_______morphology20________rewardfunc4
+2025-04-07 14:02:51,846 - 
+Average Fitness: 158.3969  std_fitness 7.502550412555845 Avg reward 2787.6838
+2025-04-07 14:02:51,848 - ___________________finish coarse optimization_____________________
+2025-04-07 14:02:51,848 - morphology: 20, rewardfunc: 4, material cost: 0.18531095580705348 reward: 2787.6837596381297 fitness: 158.39687711891452 efficiency: 854.7626147038926
+2025-04-07 14:06:41,200 - Successfully trainning_______morphology21________rewardfunc4
+2025-04-07 14:07:57,695 - 
+Average Fitness: 82.9380  std_fitness 1.608356960008695 Avg reward 1333.8503
+2025-04-07 14:07:57,696 - ___________________finish coarse optimization_____________________
+2025-04-07 14:07:57,697 - morphology: 21, rewardfunc: 4, material cost: 0.031165171876013698 reward: 1333.8503024303538 fitness: 82.93804996065943 efficiency: 2661.24153881188
+2025-04-07 14:11:46,024 - Successfully trainning_______morphology22________rewardfunc4
+2025-04-07 14:13:03,238 - 
+Average Fitness: 83.7412  std_fitness 37.892755601412205 Avg reward 1344.7487
+2025-04-07 14:13:03,239 - ___________________finish coarse optimization_____________________
+2025-04-07 14:13:03,240 - morphology: 22, rewardfunc: 4, material cost: 0.07355695730089304 reward: 1344.7487123343294 fitness: 83.7412460429174 efficiency: 1138.4544591800388
+2025-04-07 14:16:51,827 - Successfully trainning_______morphology23________rewardfunc4
+2025-04-07 14:18:07,811 - 
+Average Fitness: 195.8905  std_fitness 32.23745784849746 Avg reward 3540.2767
+2025-04-07 14:18:07,813 - ___________________finish coarse optimization_____________________
+2025-04-07 14:18:07,813 - morphology: 23, rewardfunc: 4, material cost: 0.07974747881426071 reward: 3540.276677632387 fitness: 195.89045925232148 efficiency: 2456.3843542761842
+2025-04-07 14:21:56,648 - Successfully trainning_______morphology24________rewardfunc4
+2025-04-07 14:23:12,943 - 
+Average Fitness: 50.1289  std_fitness 12.077266808028742 Avg reward 659.2914
+2025-04-07 14:23:12,946 - ___________________finish coarse optimization_____________________
+2025-04-07 14:23:12,946 - morphology: 24, rewardfunc: 4, material cost: 0.05596102088859325 reward: 659.291387516681 fitness: 50.128923370147675 efficiency: 895.7828605368715
+2025-04-07 14:23:12,968 - No such comm target registered: jupyter.widget.control
+2025-04-07 14:23:12,976 - No such comm: 18a6f240-fcc0-44ba-a840-25299f5f0b1f
+2025-04-07 14:23:12,980 - _________________________________end coarse optimization stage_________________________________
+2025-04-07 14:23:12,980 - Stage1: Final best morphology: results/noDiv_m25_r5/assets/GPTCheetah_17.xml, Fitness: 219.63731423414237, best_efficiency: 3031.170175817457, best reward function: results/noDiv_m25_r5/env/GPTrewardfunc_4.py, Material cost: 0.07245957880768267, Reward: None
+2025-04-07 14:23:12,980 - folder_name:results/noDiv_m25_r5
+2025-04-07 14:23:12,981 - parameter_list:[list([-0.5, 0.5, 0.8, 0.2, 0.15, -0.3, 0.15, -0.4, 0.1, -0.45, 0.2, -0.35, 0.25, -0.4, 0.15, -0.45, 0.08, 0.06, 0.07, 0.06, 0.05, 0.07, 0.075, 0.05])
+ list([-0.5, 0.5, 0.8, 0.2, 0.45, -0.3, 0.5, -0.5, 0.1, -0.3, 0.4, -0.35, 0.5, -0.6, 0.2, -0.4, 0.08, 0.06, 0.05, 0.045, 0.04, 0.05, 0.045, 0.04])
+ list([-0.6, 0.6, 0.9, 0.3, 0.4, -0.2, 0.3, -0.4, 0.5, -0.6, 0.3, -0.2, 0.4, -0.4, 0.5, -0.6, 0.08, 0.05, 0.06, 0.05, 0.05, 0.06, 0.05, 0.05])
+ list([-0.5, 0.5, 0.8, 0.2, 0.3, -0.4, 0.4, -0.5, 0.5, -0.6, -0.3, -0.5, 0.4, -0.6, 0.6, -0.7, 0.05, 0.04, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03])
+ list([-0.6, 0.6, 1.2, 0.4, 0.2, -0.3, 0.2, -0.5, 0.1, -0.6, 0.1, -0.2, 0.1, -0.4, 0.2, -0.5, 0.07, 0.05, 0.05, 0.04, 0.04, 0.05, 0.04, 0.03])
+ list([-0.6, 0.5, 0.9, 0.1, 0.55, -0.3, 0.4, -0.45, 0.2, -0.5, -0.55, -0.35, -0.35, -0.5, -0.15, -0.6, 0.08, 0.06, 0.075, 0.07, 0.065, 0.07, 0.065, 0.06])
+ list([-0.5, 0.5, 0.75, 0.2, 0.3, -0.4, 0.45, -0.5, 0.55, -0.6, -0.35, -0.45, -0.4, -0.55, -0.45, -0.65, 0.08, 0.05, 0.06, 0.05, 0.04, 0.06, 0.05, 0.04])
+ list([-0.5, 0.5, 0.6, 0.1, 0.4, -0.6, 0.6, -1.2, 0.7, -1.4, 0.6, -0.6, 0.7, -1.2, 0.8, -1.4, 0.07, 0.05, 0.06, 0.05, 0.045, 0.06, 0.05, 0.045])
+ list([-0.6, 0.5, 0.8, 0.2, 0.3, -0.2, 0.45, -0.45, 0.55, -0.5, 0.25, -0.25, 0.4, -0.4, 0.5, -0.6, 0.08, 0.07, 0.06, 0.05, 0.04, 0.06, 0.05, 0.04])
+ list([-0.6, 0.5, 0.9, 0.2, 0.3, -0.4, 0.45, -0.5, 0.6, -0.65, 0.2, -0.45, 0.4, -0.55, 0.5, -0.6, 0.07, 0.05, 0.06, 0.05, 0.04, 0.06, 0.05, 0.04])
+ list([-0.5, 0.5, 1.0, 0.3, 0.6, -0.4, 0.3, -0.6, 0.15, -0.8, -0.6, -0.4, 0.4, -0.6, 0.2, -0.8, 0.08, 0.05, 0.07, 0.07, 0.06, 0.07, 0.07, 0.06])
+ list([-0.5, 0.5, 0.8, 0.3, 0.4, -0.3, 0.4, -0.6, 0.5, -0.7, 0.6, -0.4, 0.6, -0.6, 0.7, -0.7, 0.05, 0.04, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03])
+ list([-0.5, 0.5, 0.8, 0.2, 0.4, -0.3, 0.35, -0.35, 0.35, -0.4, -0.4, -0.25, 0.3, -0.35, 0.3, -0.4, 0.09, 0.07, 0.08, 0.07, 0.06, 0.08, 0.07, 0.06])
+ list([-0.6, 0.5, 1.0, 0.3, 0.45, -0.3, 0.25, -0.5, 0.0, -0.7, -0.2, -0.45, 0.1, -0.6, 0.4, -0.8, 0.08, 0.05, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03])
+ list([-0.5, 0.5, 1.0, 0.2, 0.15, -0.35, 0.25, -0.55, 0.4, -0.75, -0.1, -0.35, 0.1, -0.55, 0.2, -0.75, 0.12, 0.1, 0.11, 0.11, 0.1, 0.12, 0.12, 0.09])
+ list([-0.5, 0.5, 0.8, 0.1, 0.4, -0.3, 0.4, -0.3, 0.3, -0.2, -0.4, -0.3, 0.3, -0.3, 0.2, -0.2, 0.06, 0.05, 0.05, 0.04, 0.03, 0.05, 0.04, 0.03])
+ list([-0.6, 0.6, 0.9, 0.2, 0.35, -0.5, 0.35, -0.8, 0.2, -0.85, -0.4, -0.4, -0.2, -0.75, -0.05, -0.8, 0.08, 0.05, 0.07, 0.06, 0.05, 0.07, 0.06, 0.05])
+ list([-0.5, 0.5, 0.8, 0.25, 0.4, -0.6, 0.7, -1.0, 0.9, -1.2, -0.4, -0.65, 0.65, -0.85, 0.8, -1.1, 0.08, 0.05, 0.06, 0.05, 0.04, 0.05, 0.04, 0.03])
+ list([-0.5, 0.5, 0.8, 0.2, 0.45, -0.35, 0.35, -0.45, 0.15, -0.25, -0.3, -0.25, 0.2, -0.35, 0.1, -0.2, 0.07, 0.05, 0.06, 0.04, 0.03, 0.05, 0.04, 0.03])
+ list([-0.6, 0.6, 0.9, 0.2, 0.4, -0.3, 0.5, -0.4, 0.6, -0.3, 0.3, -0.3, 0.4, -0.4, 0.5, -0.3, 0.14, 0.12, 0.1, 0.08, 0.07, 0.1, 0.08, 0.07])
+ list([-0.3, 0.3, 0.6, 0.2, 0.2, -0.4, 0.4, -0.6, 0.5, -0.8, 0.2, -0.4, 0.4, -0.6, 0.5, -0.8, 0.15, 0.12, 0.1, 0.08, 0.06, 0.1, 0.08, 0.06])
+ list([-0.5, 0.5, 0.8, 0.1, 0.4, -0.35, 0.35, -0.35, 0.15, -0.2, 0.3, -0.3, 0.2, -0.25, 0.1, -0.15, 0.06, 0.04, 0.05, 0.04, 0.03, 0.05, 0.04, 0.03])
+ list([-0.5, 0.5, 1.0, 0.2, 0.2, -0.4, 0.35, -0.8, 0.4, -0.9, -0.4, -0.3, 0.35, -0.55, 0.5, -0.7, 0.08, 0.05, 0.06, 0.05, 0.04, 0.035, 0.07, 0.06, 0.055, 0.05])
+ list([-0.5, 0.5, 0.8, 0.3, 0.4, -0.6, 0.5, -1.2, 0.7, -1.5, -0.3, -0.7, 0.45, -1.1, 0.6, -1.4, 0.07, 0.05, 0.06, 0.05, 0.04, 0.06, 0.05, 0.04])
+ list([-0.5, 0.5, 1.0, 0.2, 0.6, -0.4, 0.6, -0.8, 0.6, -1.0, 0.7, -0.5, 0.7, -0.7, 0.7, -0.9, 0.07, 0.05, 0.045, 0.04, 0.035, 0.045, 0.04, 0.035])
+ list([-0.5, 0.5, 0.8, 0.1, 0.3, -0.4, 0.3, -0.6, 0.4, -0.8, -0.3, -0.5, 0.3, -0.6, 0.4, -0.8, 0.05, 0.04, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03])
+ list([-0.6, 0.6, 0.9, 0.5, 0.6, -0.4, 0.75, -0.8, 0.9, -1.0, 0.45, -0.5, 0.75, -0.7, 0.85, -0.9, 0.08, 0.05, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03])
+ list([-0.5, 0.5, 0.8, 0.2, 0.4, -0.8, 0.45, -1.2, 0.6, -1.5, 0.35, -0.85, 0.5, -1.1, 0.7, -1.3, 0.09, 0.07, 0.08, 0.075, 0.07, 0.08, 0.075, 0.07])
+ list([-0.6, 0.5, 1.0, 0.3, 0.35, -0.5, 0.3, -0.6, 0.1, -0.7, 0.45, -0.4, 0.3, -0.5, 0.2, -0.6, 0.07, 0.05, 0.08, 0.07, 0.06, 0.08, 0.07, 0.06])
+ list([-0.5, 0.5, 0.7, 0.2, 0.3, -0.2, 0.45, -0.35, 0.55, -0.45, -0.25, -0.2, 0.3, -0.35, 0.45, -0.4, 0.06, 0.04, 0.05, 0.05, 0.045, 0.05, 0.045, 0.04])
+ list([-0.5, 0.5, 0.8, 0.1, 0.3, -0.4, 0.15, -0.6, 0.1, -0.7, -0.3, -0.4, 0.2, -0.6, 0.1, -0.7, 0.07, 0.05, 0.06, 0.05, 0.04, 0.05, 0.04, 0.03])
+ list([-0.5, 0.5, 0.8, 0.2, 0.6, -0.4, 1.0, -0.6, 1.2, -0.7, 0.3, -0.5, 0.7, -0.6, 0.9, -0.7, 0.08, 0.05, 0.04, 0.03, 0.04, 0.04, 0.03, 0.03])
+ list([-0.5, 0.5, 1.0, 1.2, 0.6, -0.6, 0.7, -1.2, 0.75, -1.5, -0.6, -0.65, 0.7, -1.25, 0.8, -1.6, 0.08, 0.05, 0.06, 0.045, 0.04, 0.05, 0.045, 0.035])
+ list([-0.5, 0.5, 0.8, 0.2, 0.3, -0.4, 0.4, -0.5, 0.5, -0.6, -0.3, -0.4, 0.5, -0.7, 0.6, -0.8, 0.05, 0.03, 0.04, 0.03, 0.03, 0.04, 0.035, 0.03])
+ list([-0.5, 0.5, 0.8, 0.1, 0.25, -0.15, 0.25, -0.3, 0.3, -0.35, -0.25, -0.15, 0.35, -0.25, 0.3, -0.3, 0.06, 0.04, 0.05, 0.04, 0.03, 0.05, 0.04, 0.03])
+ list([-0.5, 0.5, 0.9, 0.2, 0.3, -0.6, 0.1, -0.8, 0.05, -0.9, -0.3, -0.6, -0.1, -0.8, -0.05, -0.9, 0.08, 0.05, 0.07, 0.07, 0.05, 0.06, 0.06, 0.04])
+ list([-0.4, 0.3, 0.6, 0.15, 0.2, -0.3, 0.1, -0.35, 0.15, -0.4, -0.25, -0.3, 0.2, -0.35, 0.25, -0.4, 0.08, 0.05, 0.06, 0.04, 0.042, 0.06, 0.045, 0.04])
+ list([-0.5, 0.5, 1.0, 0.5, 0.2, -0.6, 0.4, -1.2, 0.45, -1.4, 0.2, -0.6, 0.45, -1.2, 0.5, -1.4, 0.08, 0.05, 0.05, 0.045, 0.04, 0.05, 0.045, 0.04])
+ list([-0.6, 0.6, 1.2, 0.2, 0.4, -0.4, 0.3, -0.6, 0.2, -0.8, 0.5, -0.5, 0.3, -0.7, 0.1, -0.9, 0.08, 0.05, 0.04, 0.04, 0.03, 0.04, 0.03, 0.02])
+ list([-0.5, 0.5, 0.9, 0.3, 0.2, -0.3, 0.1, -0.4, 0.15, -0.5, -0.2, -0.25, 0.1, -0.35, 0.15, -0.6, 0.06, 0.04, 0.05, 0.04, 0.04, 0.05, 0.04, 0.04])
+ list([-0.5, 0.5, 1.0, 0.2, 0.25, -0.4, 0.4, -0.5, 0.1, -0.6, 0.23, -0.3, 0.25, -0.35, 0.1, -0.4, 0.08, 0.07, 0.06, 0.05, 0.04, 0.06, 0.05, 0.04])
+ list([-0.6, 0.5, 1.0, 0.4, 0.3, -0.25, 0.3, -0.5, 0.2, -0.3, 0.4, -0.25, 0.5, -0.4, 0.3, -0.2, 0.12, 0.08, 0.1, 0.08, 0.07, 0.1, 0.08, 0.07])
+ list([-0.6, 0.3, 0.5, 0.2, 0.3, -0.45, 0.2, -0.5, 0.2, -0.5, -0.2, -0.4, 0.1, -0.45, 0.1, -0.4, 0.07, 0.05, 0.06, 0.05, 0.04, 0.06, 0.05, 0.04])
+ list([-0.5, 0.5, 0.8, 0.2, 0.4, -0.3, 0.35, -0.4, 0.2, -0.25, 0.3, -0.35, 0.25, -0.3, 0.15, -0.2, 0.06, 0.04, 0.05, 0.045, 0.035, 0.05, 0.045, 0.035])
+ list([-0.5, 0.5, 1.0, 0.4, 0.3, -0.7, 0.3, -1.4, 0.3, -1.8, -0.3, -0.6, -0.3, -1.4, -0.3, -1.7, 0.35, 0.2, 0.15, 0.15, 0.15, 0.15, 0.15, 0.1])
+ list([-0.5, 0.5, 0.8, 0.2, 0.3, -0.4, 0.2, -0.6, 0.1, -0.8, -0.3, -0.4, 0.2, -0.6, 0.1, -0.9, 0.06, 0.04, 0.05, 0.04, 0.03, 0.05, 0.04, 0.03])
+ list([-0.5, 0.5, 1.0, 0.2, 0.35, -0.1, 0.3, -0.15, 0.4, -0.2, -0.25, -0.15, -0.2, -0.25, -0.3, -0.3, 0.08, 0.05, 0.05, 0.04, 0.03, 0.05, 0.04, 0.03])
+ list([-0.5, 0.5, 0.8, 0.2, 0.5, -0.4, 0.6, -0.7, 0.65, -0.75, -0.5, -0.45, -0.65, -0.7, -0.7, -0.75, 0.08, 0.05, 0.07, 0.06, 0.05, 0.07, 0.06, 0.05])
+ list([-0.6, 0.5, 0.8, 0.2, 0.35, -0.4, 0.45, -0.5, 0.55, -0.6, -0.45, -0.4, 0.5, -0.5, 0.55, -0.6, 0.07, 0.05, 0.06, 0.05, 0.04, 0.06, 0.05, 0.04])
+ list([-0.5, 0.5, 0.8, 1.2, 0.3, -0.6, 0.5, -1.0, 0.6, -1.3, -0.3, -0.5, 0.5, -0.9, 0.6, -1.1, 0.07, 0.05, 0.07, 0.06, 0.05, 0.07, 0.06, 0.05])]
+2025-04-07 14:23:12,981 - fitness_matrix:[[13.64835462166776 23.816542025827633 9.719735693876222 170.838052435609
+  19.860928825226598 46.450322891924564 124.13986581092472
+  124.14019935483357 78.9331824229044 170.9534111307339
+  183.84591839423396 90.03683663969154 130.7502731189885
+  20.29092374108581 46.04899099414209 100.28791375656515
+  10.499833937512848 208.3136403059711 118.4893074023224
+  97.40614054114535 158.34022515904763 83.22651096191899
+  0.10011092260757369 172.1905606869142 63.793308105494496]
+ [4.82755281297902 28.669615943870834 13.44507725326504
+  177.81334526143814 23.172028191303983 47.67406259659447
+  97.06825620263376 130.18066987038625 82.38538498698591
+  169.06968291467885 159.40377166681301 71.12614955471501
+  128.0181987901255 24.49918841260679 38.201558142922146
+  113.4879171484064 14.656210513721284 218.14876530077615
+  121.7287127967212 98.1365393924705 156.4750260890247 81.68115797260988
+  23.364611227477965 79.28701045546785 73.53820226673254]
+ [0.3042161392141907 20.03870697003718 17.606110344888112
+  172.65749396963446 22.248832517855213 76.64728652244968
+  111.89713217187239 130.8313494447441 80.35861842539043
+  166.5914265185078 161.68354338234604 75.44992117025579
+  109.55233545394434 8.817982502121252 86.79515533966543
+  105.35768853283327 58.816656008133776 211.29340658076467
+  121.36353233969761 94.43109127684689 144.27997146614058
+  82.5379942583087 57.6024849630065 205.20804096973083 76.99276945752548]
+ [14.552334465403726 18.072999641029323 17.2688674555898
+  172.96809894261395 25.01821343073793 112.98047539583388
+  106.11429392438131 123.17797581837384 81.82500235230087
+  162.8118938347244 107.35390032665582 80.53073308650322
+  88.91295740520977 39.36573610296652 29.464297818244226
+  97.17552526673653 31.346047013211322 213.20207440718926
+  122.9125876319281 98.07839849907063 155.94406802124934 81.3789018541996
+  60.35346808161573 153.13806122257003 69.26923432231224]
+ [9.474326530422193 25.203614242125617 16.445011790629415
+  170.46254888973834 21.100583483155972 63.05648501909296
+  105.02911482962426 127.37410754771149 81.84639609494938
+  164.4395847966947 143.2918862861484 82.98741818518415
+  131.27025424727765 47.997269815333496 43.812272021448194
+  95.7055473556953 47.63877311480782 219.63731423414237
+  119.86577404753162 94.25654752898117 158.39687711891452
+  82.93804996065943 83.7412460429174 195.89045925232148
+  50.128923370147675]]
+2025-04-07 14:23:12,982 - efficiency_matrix:[[192.34874374834308 421.11920183307427 143.09633930793447
+  6125.897972276399 429.1510732354531 484.5020075149803
+  1968.7313141253737 1457.5942231921101 1178.726162991685
+  2861.2147499740117 1825.8444926201576 3027.8542119198355
+  1340.7162023049239 431.9440599081178 186.26235838171698
+  2849.1892400353777 117.08314652257623 2874.894440924962
+  2828.9551770890052 437.86237975027257 854.456901749037
+  2670.497415930324 1.3609986910967329 2159.1975476486477
+  1139.9596914519072]
+ [68.03557972336941 506.930257551699 197.9417339369379 6376.017495231546
+  500.6966620166025 497.26627494467846 1539.4032718283481
+  1528.5185085935339 1230.2786451965464 2829.6871488511697
+  1583.1001370213714 2391.9055749227155 1312.7014515037952
+  521.5277058070997 154.52048264124028 3224.202601303974
+  163.43070311931316 3010.6270128863416 2906.296608666948
+  441.1456858892013 844.3916626923404 2620.911519357795 317.6397187271135
+  994.2259195445497 1314.0968677667945]
+ [4.287373374144518 354.32029871665094 259.2014864552682
+  6191.139369289883 480.74843011097073 799.4726813224984
+  1774.5740792334916 1536.1584736786726 1200.0125049105814
+  2788.2090425762417 1605.7414263553628 2537.309951465674
+  1123.3520790414054 187.71324611765436 351.0754520491041
+  2993.2220272464915 655.8617207044626 2916.017592947447
+  2897.5778544846753 424.48886814717434 778.5830623871234
+  2648.4049113117244 783.1004309677606 2573.222928434884
+  1375.8285362735264]
+ [205.0886960822596 319.5630656753675 254.2365136992061 6202.277018935422
+  540.5886722980246 1178.4475054487689 1682.8641787274153
+  1446.2962594748594 1221.9103309779398 2724.9517224015653
+  1066.1728548816423 2708.17288195873 911.7154384796477 838.0000876528364
+  119.17936704379885 2760.7659847909326 349.53827243297707
+  2942.358731797984 2934.561849788767 440.884329574256 841.5264350782311
+  2611.21299692985 820.499790859117 1920.287180228516 1237.8121989627903]
+ [133.52340677719155 445.6451277201654 242.10750798475954
+  6112.43319450917 455.93728910547804 657.7132660556842
+  1665.6543480954379 1495.565210227495 1222.229808330937
+  2752.1940766663033 1423.0868093121808 2790.7888933715813
+  1346.04810033435 1021.7442957789701 177.21511235315373
+  2719.0037714758296 531.2176826748964 3031.170175817457
+  2861.818584998322 423.7042549761112 854.7626147038926 2661.24153881188
+  1138.4544591800388 2456.3843542761842 895.7828605368715]]
+2025-04-07 14:23:12,982 - _________________________________enter fine optimization stage_________________________________
+2025-04-07 14:23:12,989 - fitness_coarse_best [(1, 3), (3, 3), (2, 3), (0, 3), (4, 3), (1, 15), (4, 17), (0, 11), (1, 17), (2, 15), (3, 17), (3, 18)]
+2025-04-07 14:23:12,989 - fitness_coarse_best values [((1, 3), 6376.017495231546), ((3, 3), 6202.277018935422), ((2, 3), 6191.139369289883), ((0, 3), 6125.897972276399), ((4, 3), 6112.43319450917), ((1, 15), 3224.202601303974), ((4, 17), 3031.170175817457), ((0, 11), 3027.8542119198355), ((1, 17), 3010.6270128863416), ((2, 15), 2993.2220272464915), ((3, 17), 2942.358731797984), ((3, 18), 2934.561849788767)]
+2025-04-07 14:23:13,034 - Initial morphology:results/noDiv_m25_r5/assets/GPTCheetah_3.xml
+2025-04-07 14:23:13,034 - Initial parameter:[-0.5, 0.5, 0.8, 0.2, 0.3, -0.4, 0.4, -0.5, 0.5, -0.6, -0.3, -0.5, 0.4, -0.6, 0.6, -0.7, 0.05, 0.04, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03]
+2025-04-07 14:23:13,034 - Initial rewardfunc:results/noDiv_m25_r5/env/GPTrewardfunc_1.py
+2025-04-07 14:23:13,034 - Initial fitness:177.81334526143814
+2025-04-07 14:23:13,034 - Initial efficiency:6376.017495231546
+2025-04-07 14:23:54,316 - HTTP Request: POST http://chatapi.littlewheat.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:25:18,530 - fitness_coarse_best [(1, 3), (3, 3), (2, 3), (0, 3), (4, 3), (1, 15), (4, 17), (0, 11), (1, 17), (2, 15), (3, 17), (3, 18)]
+2025-04-07 14:25:18,531 - fitness_coarse_best values [((1, 3), 6376.017495231546), ((3, 3), 6202.277018935422), ((2, 3), 6191.139369289883), ((0, 3), 6125.897972276399), ((4, 3), 6112.43319450917), ((1, 15), 3224.202601303974), ((4, 17), 3031.170175817457), ((0, 11), 3027.8542119198355), ((1, 17), 3010.6270128863416), ((2, 15), 2993.2220272464915), ((3, 17), 2942.358731797984), ((3, 18), 2934.561849788767)]
+2025-04-07 14:25:58,050 - Initial morphology:results/noDiv_m25_r5/assets/GPTCheetah_3.xml
+2025-04-07 14:25:58,050 - Initial parameter:[-0.5, 0.5, 0.8, 0.2, 0.3, -0.4, 0.4, -0.5, 0.5, -0.6, -0.3, -0.5, 0.4, -0.6, 0.6, -0.7, 0.05, 0.04, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03]
+2025-04-07 14:25:58,050 - Initial rewardfunc:results/noDiv_m25_r5/env/GPTrewardfunc_1.py
+2025-04-07 14:25:58,050 - Initial fitness:177.81334526143814
+2025-04-07 14:25:58,050 - Initial efficiency:6376.017495231546
+2025-04-07 14:26:40,821 - HTTP Request: POST http://chatapi.littlewheat.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:30:28,831 - Successfully trainning_______morphology3________rewardfunc1
+2025-04-07 14:31:45,351 - 
+Average Fitness: 172.8070  std_fitness 3.0780538062918494 Avg reward 3108.3940
+2025-04-07 14:31:45,352 - Not improved Morphology!
+2025-04-07 14:31:45,352 - ____________________________________________
+2025-04-07 14:31:45,352 - Final optimized result: rewardfunc_index1 morphology_index3
+2025-04-07 14:31:45,352 -   Morphology: results/noDiv_m25_r5/assets/GPTCheetah_3.xml
+2025-04-07 14:31:45,352 -   Parameter: [-0.5, 0.5, 0.8, 0.2, 0.3, -0.4, 0.4, -0.5, 0.5, -0.6, -0.3, -0.5, 0.4, -0.6, 0.6, -0.7, 0.05, 0.04, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03]
+2025-04-07 14:31:45,352 -   Rewardfunc: results/noDiv_m25_r5/env/GPTrewardfunc_1.py
+2025-04-07 14:31:45,352 -   Fitness: 177.81334526143814
+2025-04-07 14:31:45,352 -   Material: 0.02788783835590477
+2025-04-07 14:31:45,352 -   Efficiency: 6376.017495231546
+2025-04-07 14:31:45,352 - ____________________________________________
+2025-04-07 14:31:45,352 - Initial morphology:results/noDiv_m25_r5/assets/GPTCheetah_3.xml
+2025-04-07 14:31:45,352 - Initial parameter:[-0.5, 0.5, 0.8, 0.2, 0.3, -0.4, 0.4, -0.5, 0.5, -0.6, -0.3, -0.5, 0.4, -0.6, 0.6, -0.7, 0.05, 0.04, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03]
+2025-04-07 14:31:45,352 - Initial rewardfunc:results/noDiv_m25_r5/env/GPTrewardfunc_3.py
+2025-04-07 14:31:45,352 - Initial fitness:172.96809894261395
+2025-04-07 14:31:45,352 - Initial efficiency:6202.277018935422
+2025-04-07 14:32:24,330 - HTTP Request: POST http://chatapi.littlewheat.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:36:12,508 - Successfully trainning_______morphology3________rewardfunc3
+2025-04-07 14:37:29,955 - 
+Average Fitness: 118.8098  std_fitness 0.6609422391007705 Avg reward 2033.9970
+2025-04-07 14:37:29,957 - Not improved Morphology!
+2025-04-07 14:37:29,957 - ____________________________________________
+2025-04-07 14:37:29,957 - Final optimized result: rewardfunc_index3 morphology_index3
+2025-04-07 14:37:29,957 -   Morphology: results/noDiv_m25_r5/assets/GPTCheetah_3.xml
+2025-04-07 14:37:29,957 -   Parameter: [-0.5, 0.5, 0.8, 0.2, 0.3, -0.4, 0.4, -0.5, 0.5, -0.6, -0.3, -0.5, 0.4, -0.6, 0.6, -0.7, 0.05, 0.04, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03]
+2025-04-07 14:37:29,957 -   Rewardfunc: results/noDiv_m25_r5/env/GPTrewardfunc_3.py
+2025-04-07 14:37:29,957 -   Fitness: 172.96809894261395
+2025-04-07 14:37:29,957 -   Material: 0.02788783835590477
+2025-04-07 14:37:29,957 -   Efficiency: 6202.277018935422
+2025-04-07 14:37:29,957 - ____________________________________________
+2025-04-07 14:37:29,957 - Initial morphology:results/noDiv_m25_r5/assets/GPTCheetah_3.xml
+2025-04-07 14:37:29,957 - Initial parameter:[-0.5, 0.5, 0.8, 0.2, 0.3, -0.4, 0.4, -0.5, 0.5, -0.6, -0.3, -0.5, 0.4, -0.6, 0.6, -0.7, 0.05, 0.04, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03]
+2025-04-07 14:37:29,957 - Initial rewardfunc:results/noDiv_m25_r5/env/GPTrewardfunc_2.py
+2025-04-07 14:37:29,957 - Initial fitness:172.65749396963446
+2025-04-07 14:37:29,957 - Initial efficiency:6191.139369289883
+2025-04-07 14:38:07,209 - HTTP Request: POST http://chatapi.littlewheat.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:41:55,345 - Successfully trainning_______morphology3________rewardfunc2
+2025-04-07 14:43:11,764 - 
+Average Fitness: 170.3811  std_fitness 2.454563349729744 Avg reward 3077.6380
+2025-04-07 14:43:11,766 - Not improved Morphology!
+2025-04-07 14:43:11,766 - ____________________________________________
+2025-04-07 14:43:11,766 - Final optimized result: rewardfunc_index2 morphology_index3
+2025-04-07 14:43:11,766 -   Morphology: results/noDiv_m25_r5/assets/GPTCheetah_3.xml
+2025-04-07 14:43:11,766 -   Parameter: [-0.5, 0.5, 0.8, 0.2, 0.3, -0.4, 0.4, -0.5, 0.5, -0.6, -0.3, -0.5, 0.4, -0.6, 0.6, -0.7, 0.05, 0.04, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03]
+2025-04-07 14:43:11,766 -   Rewardfunc: results/noDiv_m25_r5/env/GPTrewardfunc_2.py
+2025-04-07 14:43:11,766 -   Fitness: 172.65749396963446
+2025-04-07 14:43:11,766 -   Material: 0.02788783835590477
+2025-04-07 14:43:11,766 -   Efficiency: 6191.139369289883
+2025-04-07 14:43:11,766 - ____________________________________________
+2025-04-07 14:43:11,766 - Initial morphology:results/noDiv_m25_r5/assets/GPTCheetah_3.xml
+2025-04-07 14:43:11,766 - Initial parameter:[-0.5, 0.5, 0.8, 0.2, 0.3, -0.4, 0.4, -0.5, 0.5, -0.6, -0.3, -0.5, 0.4, -0.6, 0.6, -0.7, 0.05, 0.04, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03]
+2025-04-07 14:43:11,766 - Initial rewardfunc:results/noDiv_m25_r5/env/GPTrewardfunc_0.py
+2025-04-07 14:43:11,766 - Initial fitness:170.838052435609
+2025-04-07 14:43:11,766 - Initial efficiency:6125.897972276399
+2025-04-07 14:43:17,439 - HTTP Request: POST http://chatapi.littlewheat.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:47:07,118 - Successfully trainning_______morphology3________rewardfunc0
+2025-04-07 14:48:23,872 - 
+Average Fitness: 108.9583  std_fitness 1.7083770283965518 Avg reward 1851.7498
+2025-04-07 14:48:23,873 - Not improved Morphology!
+2025-04-07 14:48:23,873 - ____________________________________________
+2025-04-07 14:48:23,874 - Final optimized result: rewardfunc_index0 morphology_index3
+2025-04-07 14:48:23,874 -   Morphology: results/noDiv_m25_r5/assets/GPTCheetah_3.xml
+2025-04-07 14:48:23,874 -   Parameter: [-0.5, 0.5, 0.8, 0.2, 0.3, -0.4, 0.4, -0.5, 0.5, -0.6, -0.3, -0.5, 0.4, -0.6, 0.6, -0.7, 0.05, 0.04, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03]
+2025-04-07 14:48:23,874 -   Rewardfunc: results/noDiv_m25_r5/env/GPTrewardfunc_0.py
+2025-04-07 14:48:23,874 -   Fitness: 170.838052435609
+2025-04-07 14:48:23,874 -   Material: 0.02788783835590477
+2025-04-07 14:48:23,874 -   Efficiency: 6125.897972276399
+2025-04-07 14:48:23,874 - ____________________________________________
+2025-04-07 14:48:23,874 - Initial morphology:results/noDiv_m25_r5/assets/GPTCheetah_3.xml
+2025-04-07 14:48:23,874 - Initial parameter:[-0.5, 0.5, 0.8, 0.2, 0.3, -0.4, 0.4, -0.5, 0.5, -0.6, -0.3, -0.5, 0.4, -0.6, 0.6, -0.7, 0.05, 0.04, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03]
+2025-04-07 14:48:23,874 - Initial rewardfunc:results/noDiv_m25_r5/env/GPTrewardfunc_4.py
+2025-04-07 14:48:23,874 - Initial fitness:170.46254888973834
+2025-04-07 14:48:23,874 - Initial efficiency:6112.43319450917
+2025-04-07 14:48:28,605 - HTTP Request: POST http://chatapi.littlewheat.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:52:16,435 - Successfully trainning_______morphology3________rewardfunc4
+2025-04-07 14:53:32,923 - 
+Average Fitness: 174.5733  std_fitness 2.8431629666316187 Avg reward 3137.4455
+2025-04-07 14:53:32,924 - Morphology optimization improved iteration 1: material=0.02788783835590477, fitness=174.5733242245241, efficiency=6259.837065771045
+2025-04-07 14:53:39,676 - HTTP Request: POST http://chatapi.littlewheat.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:57:28,612 - Successfully trainning_______morphology3________rewardfunc4
+2025-04-07 14:58:45,214 - 
+Average Fitness: 180.8155  std_fitness 3.1265520867660426 Avg reward 3276.4887
+2025-04-07 14:58:45,215 - Reward optimization improved iteration 2: material=0.02788783835590477, fitness=180.8154850762752, efficiency=6483.667997809899
+2025-04-07 14:58:51,888 - HTTP Request: POST http://chatapi.littlewheat.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:02:40,027 - Successfully trainning_______morphology3________rewardfunc4
+2025-04-07 15:03:56,960 - 
+Average Fitness: 176.2768  std_fitness 3.0391776748830797 Avg reward 3186.1350
+2025-04-07 15:03:56,961 - Not improved Morphology!
+2025-04-07 15:03:56,961 - ____________________________________________
+2025-04-07 15:03:56,961 - Final optimized result: rewardfunc_index4 morphology_index3
+2025-04-07 15:03:56,961 -   Morphology: results/noDiv_m25_r5/assets/GPTCheetah_refine_4_3_0.xml
+2025-04-07 15:03:56,961 -   Parameter: [-0.5, 0.5, 0.8, 0.2, 0.3, -0.4, 0.4, -0.5, 0.5, -0.6, -0.3, -0.5, 0.4, -0.6, 0.6, -0.7, 0.05, 0.04, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03]
+2025-04-07 15:03:56,961 -   Rewardfunc: results/noDiv_m25_r5/env/GPTSwimmer_refine_4_3_1.py
+2025-04-07 15:03:56,961 -   Fitness: 180.8154850762752
+2025-04-07 15:03:56,961 -   Material: 0.02788783835590477
+2025-04-07 15:03:56,961 -   Efficiency: 6483.667997809899
+2025-04-07 15:03:56,961 - ____________________________________________
+2025-04-07 15:03:56,961 - Initial morphology:results/noDiv_m25_r5/assets/GPTCheetah_15.xml
+2025-04-07 15:03:56,961 - Initial parameter:[-0.5, 0.5, 0.8, 0.1, 0.4, -0.3, 0.4, -0.3, 0.3, -0.2, -0.4, -0.3, 0.3, -0.3, 0.2, -0.2, 0.06, 0.05, 0.05, 0.04, 0.03, 0.05, 0.04, 0.03]
+2025-04-07 15:03:56,961 - Initial rewardfunc:results/noDiv_m25_r5/env/GPTrewardfunc_1.py
+2025-04-07 15:03:56,961 - Initial fitness:113.4879171484064
+2025-04-07 15:03:56,962 - Initial efficiency:3224.202601303974
+2025-04-07 15:04:04,331 - HTTP Request: POST http://chatapi.littlewheat.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:07:50,171 - Successfully trainning_______morphology15________rewardfunc1
+2025-04-07 15:09:05,593 - 
+Average Fitness: 90.7028  std_fitness 40.99552099598903 Avg reward 1438.8686
+2025-04-07 15:09:05,594 - Not improved Morphology!
+2025-04-07 15:09:05,594 - ____________________________________________
+2025-04-07 15:09:05,594 - Final optimized result: rewardfunc_index1 morphology_index15
+2025-04-07 15:09:05,595 -   Morphology: results/noDiv_m25_r5/assets/GPTCheetah_15.xml
+2025-04-07 15:09:05,595 -   Parameter: [-0.5, 0.5, 0.8, 0.1, 0.4, -0.3, 0.4, -0.3, 0.3, -0.2, -0.4, -0.3, 0.3, -0.3, 0.2, -0.2, 0.06, 0.05, 0.05, 0.04, 0.03, 0.05, 0.04, 0.03]
+2025-04-07 15:09:05,595 -   Rewardfunc: results/noDiv_m25_r5/env/GPTrewardfunc_1.py
+2025-04-07 15:09:05,595 -   Fitness: 113.4879171484064
+2025-04-07 15:09:05,595 -   Material: 0.035198754911527005
+2025-04-07 15:09:05,595 -   Efficiency: 3224.202601303974
+2025-04-07 15:09:05,595 - ____________________________________________
+2025-04-07 15:09:05,595 - Initial morphology:results/noDiv_m25_r5/assets/GPTCheetah_17.xml
+2025-04-07 15:09:05,595 - Initial parameter:[-0.5, 0.5, 0.8, 0.25, 0.4, -0.6, 0.7, -1.0, 0.9, -1.2, -0.4, -0.65, 0.65, -0.85, 0.8, -1.1, 0.08, 0.05, 0.06, 0.05, 0.04, 0.05, 0.04, 0.03]
+2025-04-07 15:09:05,595 - Initial rewardfunc:results/noDiv_m25_r5/env/GPTrewardfunc_4.py
+2025-04-07 15:09:05,595 - Initial fitness:219.63731423414237
+2025-04-07 15:09:05,595 - Initial efficiency:3031.170175817457
+2025-04-07 15:09:10,762 - HTTP Request: POST http://chatapi.littlewheat.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:12:55,182 - Successfully trainning_______morphology17________rewardfunc4
+2025-04-07 15:14:09,553 - 
+Average Fitness: 225.3502  std_fitness 7.022425506724765 Avg reward 4155.4820
+2025-04-07 15:14:09,555 - Morphology optimization improved iteration 1: material=0.07245957880768267, fitness=225.35019422249908, efficiency=3110.0124777237306
+2025-04-07 15:14:17,515 - HTTP Request: POST http://chatapi.littlewheat.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:18:05,761 - Successfully trainning_______morphology17________rewardfunc4
+2025-04-07 15:19:18,522 - 
+Average Fitness: 219.0841  std_fitness 4.862813823984523 Avg reward 4029.4769
+2025-04-07 15:19:24,154 - HTTP Request: POST http://chatapi.littlewheat.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:23:22,192 - Successfully trainning_______morphology17________rewardfunc4
+2025-04-07 15:24:35,539 - 
+Average Fitness: 97.4933  std_fitness 2.246337030762797 Avg reward 1624.9372
+2025-04-07 15:24:35,540 - Not improved Morphology!
+2025-04-07 15:24:35,540 - ____________________________________________
+2025-04-07 15:24:35,540 - Final optimized result: rewardfunc_index4 morphology_index17
+2025-04-07 15:24:35,540 -   Morphology: results/noDiv_m25_r5/assets/GPTCheetah_refine_4_17_0.xml
+2025-04-07 15:24:35,540 -   Parameter: [-0.5, 0.5, 0.8, 0.25, 0.4, -0.6, 0.7, -1.0, 0.9, -1.2, -0.4, -0.65, 0.65, -0.85, 0.8, -1.1, 0.08, 0.05, 0.06, 0.05, 0.04, 0.05, 0.04, 0.03]
+2025-04-07 15:24:35,540 -   Rewardfunc: results/noDiv_m25_r5/env/GPTrewardfunc_4.py
+2025-04-07 15:24:35,540 -   Fitness: 225.35019422249908
+2025-04-07 15:24:35,540 -   Material: 0.07245957880768267
+2025-04-07 15:24:35,540 -   Efficiency: 3110.0124777237306
+2025-04-07 15:24:35,540 - ____________________________________________
+2025-04-07 15:24:35,540 - Initial morphology:results/noDiv_m25_r5/assets/GPTCheetah_11.xml
+2025-04-07 15:24:35,540 - Initial parameter:[-0.5, 0.5, 0.8, 0.3, 0.4, -0.3, 0.4, -0.6, 0.5, -0.7, 0.6, -0.4, 0.6, -0.6, 0.7, -0.7, 0.05, 0.04, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03]
+2025-04-07 15:24:35,540 - Initial rewardfunc:results/noDiv_m25_r5/env/GPTrewardfunc_0.py
+2025-04-07 15:24:35,540 - Initial fitness:90.03683663969154
+2025-04-07 15:24:35,540 - Initial efficiency:3027.8542119198355
+2025-04-07 15:24:41,148 - HTTP Request: POST http://chatapi.littlewheat.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:28:38,682 - Successfully trainning_______morphology11________rewardfunc0
+2025-04-07 15:29:52,296 - 
+Average Fitness: 93.9986  std_fitness 1.311889810728502 Avg reward 1586.0988
+2025-04-07 15:29:52,298 - Not improved Morphology!
+2025-04-07 15:29:52,298 - ____________________________________________
+2025-04-07 15:29:52,298 - Final optimized result: rewardfunc_index0 morphology_index11
+2025-04-07 15:29:52,298 -   Morphology: results/noDiv_m25_r5/assets/GPTCheetah_11.xml
+2025-04-07 15:29:52,298 -   Parameter: [-0.5, 0.5, 0.8, 0.3, 0.4, -0.3, 0.4, -0.6, 0.5, -0.7, 0.6, -0.4, 0.6, -0.6, 0.7, -0.7, 0.05, 0.04, 0.04, 0.03, 0.03, 0.04, 0.03, 0.03]
+2025-04-07 15:29:52,298 -   Rewardfunc: results/noDiv_m25_r5/env/GPTrewardfunc_0.py
+2025-04-07 15:29:52,298 -   Fitness: 90.03683663969154
+2025-04-07 15:29:52,298 -   Material: 0.029736186202506412
+2025-04-07 15:29:52,298 -   Efficiency: 3027.8542119198355
+2025-04-07 15:29:52,298 - ____________________________________________
+2025-04-07 15:29:52,298 - Initial morphology:results/noDiv_m25_r5/assets/GPTCheetah_17.xml
+2025-04-07 15:29:52,298 - Initial parameter:[-0.5, 0.5, 0.8, 0.25, 0.4, -0.6, 0.7, -1.0, 0.9, -1.2, -0.4, -0.65, 0.65, -0.85, 0.8, -1.1, 0.08, 0.05, 0.06, 0.05, 0.04, 0.05, 0.04, 0.03]
+2025-04-07 15:29:52,298 - Initial rewardfunc:results/noDiv_m25_r5/env/GPTrewardfunc_1.py
+2025-04-07 15:29:52,298 - Initial fitness:218.14876530077615
+2025-04-07 15:29:52,298 - Initial efficiency:3010.6270128863416
+2025-04-07 15:30:00,197 - HTTP Request: POST http://chatapi.littlewheat.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:33:58,373 - Successfully trainning_______morphology17________rewardfunc1
+2025-04-07 15:35:11,808 - 
+Average Fitness: 215.5360  std_fitness 6.047765181025824 Avg reward 3976.7598
+2025-04-07 15:35:11,809 - Not improved Morphology!
+2025-04-07 15:35:11,809 - ____________________________________________
+2025-04-07 15:35:11,809 - Final optimized result: rewardfunc_index1 morphology_index17
+2025-04-07 15:35:11,809 -   Morphology: results/noDiv_m25_r5/assets/GPTCheetah_17.xml
+2025-04-07 15:35:11,809 -   Parameter: [-0.5, 0.5, 0.8, 0.25, 0.4, -0.6, 0.7, -1.0, 0.9, -1.2, -0.4, -0.65, 0.65, -0.85, 0.8, -1.1, 0.08, 0.05, 0.06, 0.05, 0.04, 0.05, 0.04, 0.03]
+2025-04-07 15:35:11,809 -   Rewardfunc: results/noDiv_m25_r5/env/GPTrewardfunc_1.py
+2025-04-07 15:35:11,809 -   Fitness: 218.14876530077615
+2025-04-07 15:35:11,809 -   Material: 0.07245957880768267
+2025-04-07 15:35:11,809 -   Efficiency: 3010.6270128863416
+2025-04-07 15:35:11,809 - ____________________________________________
+2025-04-07 15:35:11,810 - Initial morphology:results/noDiv_m25_r5/assets/GPTCheetah_15.xml
+2025-04-07 15:35:11,810 - Initial parameter:[-0.5, 0.5, 0.8, 0.1, 0.4, -0.3, 0.4, -0.3, 0.3, -0.2, -0.4, -0.3, 0.3, -0.3, 0.2, -0.2, 0.06, 0.05, 0.05, 0.04, 0.03, 0.05, 0.04, 0.03]
+2025-04-07 15:35:11,810 - Initial rewardfunc:results/noDiv_m25_r5/env/GPTrewardfunc_2.py
+2025-04-07 15:35:11,810 - Initial fitness:105.35768853283327
+2025-04-07 15:35:11,810 - Initial efficiency:2993.2220272464915
+2025-04-07 15:35:17,615 - HTTP Request: POST http://chatapi.littlewheat.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:39:15,702 - Successfully trainning_______morphology15________rewardfunc2
+2025-04-07 15:40:28,821 - 
+Average Fitness: 94.1890  std_fitness 43.00151097477907 Avg reward 1503.2541
+2025-04-07 15:40:28,822 - Not improved Morphology!
+2025-04-07 15:40:28,822 - ____________________________________________
+2025-04-07 15:40:28,822 - Final optimized result: rewardfunc_index2 morphology_index15
+2025-04-07 15:40:28,822 -   Morphology: results/noDiv_m25_r5/assets/GPTCheetah_15.xml
+2025-04-07 15:40:28,822 -   Parameter: [-0.5, 0.5, 0.8, 0.1, 0.4, -0.3, 0.4, -0.3, 0.3, -0.2, -0.4, -0.3, 0.3, -0.3, 0.2, -0.2, 0.06, 0.05, 0.05, 0.04, 0.03, 0.05, 0.04, 0.03]
+2025-04-07 15:40:28,822 -   Rewardfunc: results/noDiv_m25_r5/env/GPTrewardfunc_2.py
+2025-04-07 15:40:28,822 -   Fitness: 105.35768853283327
+2025-04-07 15:40:28,822 -   Material: 0.035198754911527005
+2025-04-07 15:40:28,822 -   Efficiency: 2993.2220272464915
+2025-04-07 15:40:28,822 - ____________________________________________
+2025-04-07 15:40:28,822 - Initial morphology:results/noDiv_m25_r5/assets/GPTCheetah_17.xml
+2025-04-07 15:40:28,823 - Initial parameter:[-0.5, 0.5, 0.8, 0.25, 0.4, -0.6, 0.7, -1.0, 0.9, -1.2, -0.4, -0.65, 0.65, -0.85, 0.8, -1.1, 0.08, 0.05, 0.06, 0.05, 0.04, 0.05, 0.04, 0.03]
+2025-04-07 15:40:28,823 - Initial rewardfunc:results/noDiv_m25_r5/env/GPTrewardfunc_3.py
+2025-04-07 15:40:28,823 - Initial fitness:213.20207440718926
+2025-04-07 15:40:28,823 - Initial efficiency:2942.358731797984
+2025-04-07 15:40:33,818 - HTTP Request: POST http://chatapi.littlewheat.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:44:34,001 - Successfully trainning_______morphology17________rewardfunc3
+2025-04-07 15:45:48,987 - 
+Average Fitness: 25.2876  std_fitness 14.35751851261608 Avg reward 236.5708
+2025-04-07 15:45:48,989 - Not improved Morphology!
+2025-04-07 15:45:48,989 - ____________________________________________
+2025-04-07 15:45:48,989 - Final optimized result: rewardfunc_index3 morphology_index17
+2025-04-07 15:45:48,989 -   Morphology: results/noDiv_m25_r5/assets/GPTCheetah_17.xml
+2025-04-07 15:45:48,989 -   Parameter: [-0.5, 0.5, 0.8, 0.25, 0.4, -0.6, 0.7, -1.0, 0.9, -1.2, -0.4, -0.65, 0.65, -0.85, 0.8, -1.1, 0.08, 0.05, 0.06, 0.05, 0.04, 0.05, 0.04, 0.03]
+2025-04-07 15:45:48,989 -   Rewardfunc: results/noDiv_m25_r5/env/GPTrewardfunc_3.py
+2025-04-07 15:45:48,989 -   Fitness: 213.20207440718926
+2025-04-07 15:45:48,989 -   Material: 0.07245957880768267
+2025-04-07 15:45:48,989 -   Efficiency: 2942.358731797984
+2025-04-07 15:45:48,989 - ____________________________________________
+2025-04-07 15:45:48,989 - Initial morphology:results/noDiv_m25_r5/assets/GPTCheetah_18.xml
+2025-04-07 15:45:48,989 - Initial parameter:[-0.5, 0.5, 0.8, 0.2, 0.45, -0.35, 0.35, -0.45, 0.15, -0.25, -0.3, -0.25, 0.2, -0.35, 0.1, -0.2, 0.07, 0.05, 0.06, 0.04, 0.03, 0.05, 0.04, 0.03]
+2025-04-07 15:45:48,989 - Initial rewardfunc:results/noDiv_m25_r5/env/GPTrewardfunc_3.py
+2025-04-07 15:45:48,990 - Initial fitness:122.9125876319281
+2025-04-07 15:45:48,990 - Initial efficiency:2934.561849788767
+2025-04-07 15:45:54,268 - HTTP Request: POST http://chatapi.littlewheat.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:49:53,851 - Successfully trainning_______morphology18________rewardfunc3
+2025-04-07 15:51:08,006 - 
+Average Fitness: 123.4600  std_fitness 3.0842098289537496 Avg reward 2066.1259
+2025-04-07 15:51:08,007 - Morphology optimization improved iteration 1: material=0.04188447677147288, fitness=123.45998351741665, efficiency=2947.6310326384228
+2025-04-07 15:51:13,506 - HTTP Request: POST http://chatapi.littlewheat.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 15:55:12,742 - Successfully trainning_______morphology18________rewardfunc3
+2025-04-07 15:56:25,878 - 
+Average Fitness: 121.7544  std_fitness 2.750398623154899 Avg reward 2026.7918
+2025-04-07 15:56:31,583 - HTTP Request: POST http://chatapi.littlewheat.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 16:00:29,737 - Successfully trainning_______morphology18________rewardfunc3
+2025-04-07 16:01:44,024 - 
+Average Fitness: 116.6793  std_fitness 3.1758944375055704 Avg reward 1908.2886
+2025-04-07 16:01:44,025 - Not improved Morphology!
+2025-04-07 16:01:44,025 - ____________________________________________
+2025-04-07 16:01:44,025 - Final optimized result: rewardfunc_index3 morphology_index18
+2025-04-07 16:01:44,025 -   Morphology: results/noDiv_m25_r5/assets/GPTCheetah_refine_3_18_0.xml
+2025-04-07 16:01:44,025 -   Parameter: [-0.5, 0.5, 0.8, 0.2, 0.45, -0.35, 0.35, -0.45, 0.15, -0.25, -0.3, -0.25, 0.2, -0.35, 0.1, -0.2, 0.07, 0.05, 0.06, 0.04, 0.03, 0.05, 0.04, 0.03]
+2025-04-07 16:01:44,025 -   Rewardfunc: results/noDiv_m25_r5/env/GPTrewardfunc_3.py
+2025-04-07 16:01:44,026 -   Fitness: 123.45998351741665
+2025-04-07 16:01:44,026 -   Material: 0.04188447677147288
+2025-04-07 16:01:44,026 -   Efficiency: 2947.6310326384228
+2025-04-07 16:01:44,026 - ____________________________________________
+2025-04-08 00:36:55,420 - No such comm target registered: jupyter.widget.control
+2025-04-08 00:36:55,423 - No such comm: 6a3a0734-2723-482e-a6f7-2a02fd92fdbc
+2025-04-08 01:58:48,930 - No such comm target registered: jupyter.widget.control
+2025-04-08 01:58:48,932 - No such comm: 6477858b-4d0b-4a98-a85a-ab8777cccacc
+2025-04-08 02:58:51,320 - No such comm target registered: jupyter.widget.control
+2025-04-08 02:58:51,323 - No such comm: 3f0b1737-f1c4-49b0-832b-f9f498e496ee
+2025-04-08 03:58:52,650 - No such comm target registered: jupyter.widget.control
+2025-04-08 03:58:52,653 - No such comm: af9049a8-695f-4e33-ac79-8816b67d318b
+2025-04-08 05:24:41,758 - No such comm target registered: jupyter.widget.control
+2025-04-08 05:24:41,761 - No such comm: 336be3ab-6fc7-4fd2-b9e1-6b39f5813f89
+2025-04-08 06:47:48,248 - No such comm target registered: jupyter.widget.control
+2025-04-08 06:47:48,251 - No such comm: 2154de2c-4c5d-4796-8383-f37e46e4f264
+2025-04-08 08:15:40,453 - No such comm target registered: jupyter.widget.control
+2025-04-08 08:15:40,461 - No such comm: 09ffe4d8-e8e9-45b0-bcfe-0da4e6ba70d1
+2025-04-08 08:38:33,343 - No such comm target registered: jupyter.widget.control
+2025-04-08 08:38:33,358 - No such comm: f00f87d7-1298-4d84-84a3-34ada8ea307a
+2025-04-08 08:43:02,095 - No such comm target registered: jupyter.widget.control
+2025-04-08 08:43:02,098 - No such comm: 962a739e-f3f1-4d8f-bb63-6f8f8b54bd92
+2025-04-08 09:38:32,242 - No such comm target registered: jupyter.widget.control
+2025-04-08 09:38:32,252 - No such comm: 7fb24d87-2a1a-4ac5-b000-dda91a9ab02d
+2025-04-08 10:38:35,859 - No such comm target registered: jupyter.widget.control
+2025-04-08 10:38:35,862 - No such comm: 0af2d560-3033-4835-98c0-28b9986939f1
+2025-04-08 12:52:35,332 - No such comm target registered: jupyter.widget.control
+2025-04-08 12:52:35,335 - No such comm: b5ce2bf8-dad1-4a26-a148-b45e5fc15d68
+2025-04-08 13:52:39,548 - No such comm target registered: jupyter.widget.control
+2025-04-08 13:52:39,550 - No such comm: 572155f5-c456-4963-b8bd-cefd706e9248
+2025-04-09 06:08:37,278 - No such comm target registered: jupyter.widget.control
+2025-04-09 06:08:37,281 - No such comm: 9c0848fc-2234-427a-8d76-5ac9bd1dbbf9
