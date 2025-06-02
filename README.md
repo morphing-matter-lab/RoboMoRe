@@ -16,8 +16,15 @@ Create a new conda environment and install required packages:
     ```
 
 # Getting Started
-Yes
+Enter the corresponding task folder and run jupyter notebook:
 
+robodesign_div_m25r5.ipynb: represents RoboMoRe (with diversity reflection)
+
+robodesign_nodiv_m25r5.ipynb: represents RoboMoRe (without diversity reflection)
+
+robodesign_random_m25r5.ipynb: represents RoboMoRe (without random sampling)
+
+robodesign_div_m25r5-fineonly.ipynb: represents RoboMoRe (fine stage only)
 
 # Visualization
 We visualize our robots on the blender. We provide a customized script to transfer mujoco robot to blender and will open-source it if you are interested.
