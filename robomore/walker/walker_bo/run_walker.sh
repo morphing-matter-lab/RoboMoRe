@@ -1,0 +1,1 @@
+python BO/optimization_loop_design.py --model gp --algo bo --acqf ei --max_loop_num 1 --init_num 1 --eval_num 100 --batch_size 1 --task WalkerDesign
