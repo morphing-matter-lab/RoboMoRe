@@ -1,4 +1,5 @@
 import os
+import csv
 import logging
 from datetime import datetime
 from stable_baselines3 import PPO
@@ -18,6 +19,42 @@ from GPTAnt import GPTAntEnv
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))  # 确保 Python 能找到当前目录
 
 from stable_baselines3.common.callbacks import BaseCallback
+
+
+def resolve_sb3_device():
+    """
+    Prefer CUDA by default, with an actual kernel launch probe.
+    Use ROBOMORE_DEVICE=cpu/cuda to force behavior.
+    """
+    forced = os.getenv("ROBOMORE_DEVICE")
+    if forced:
+        target = forced.strip().lower()
+        if target not in {"cpu", "cuda"}:
+            raise ValueError(f"Invalid ROBOMORE_DEVICE={forced}, expected 'cpu' or 'cuda'.")
+    else:
+        target = "cuda"
+
+    if target == "cpu":
+        return "cpu"
+
+    if not torch.cuda.is_available():
+        raise RuntimeError(
+            "CUDA requested but torch.cuda.is_available() is False. "
+            "Check driver/WSL GPU passthrough and CUDA build."
+        )
+
+    try:
+        _ = torch.ones(1, device="cuda")
+        torch.cuda.synchronize()
+    except Exception as exc:
+        raise RuntimeError(
+            "CUDA is visible but cannot launch kernels. "
+            "Current PyTorch wheel likely does not support your GPU arch "
+            "(e.g., RTX 5080 / sm_120).\n"
+            f"Original error: {exc}"
+        ) from exc
+
+    return "cuda"
 
 
 class DynamicRewardLoggingCallback(BaseCallback):
@@ -67,7 +104,7 @@ def setup_logging(div_flag):
 def make_env():
     """ 兼容 `SubprocVecEnv` 的 Gym 环境创建函数 """
     def _init():
-        # env = gym.make(env_name, xml_file=r"/home/mml/Ant/GPTAnt.xml")  # 不能加 render_mode，否则 SubprocVecEnv 可能报错
+        # env = gym.make(env_name, xml_file=r"/path/to/GPTAnt.xml")  # 不能加 render_mode，否则 SubprocVecEnv 可能报错
         current_dir = os.path.dirname(os.path.abspath(__file__))
 # 构造相对路径
         xml_path = os.path.join(current_dir,"GPTAnt.xml")
@@ -78,9 +115,17 @@ def make_env():
 
 
 def Train(morphology, rewardfunc, folder_name, total_timesteps = 5e5, stage ='coarse', callback=False, iter=0):
-    num_envs = 16  # 并行环境数量
-    # envs = SubprocVecEnv([make_env() for _ in range(num_envs)])
-    envs = DummyVecEnv([make_env() for _ in range(num_envs)])
+    # Tunable runtime knobs:
+    # - ROBOMORE_NUM_ENVS: number of parallel envs (default: 16)
+    # - ROBOMORE_VEC_MODE: "subproc" or "dummy" (default: subproc)
+    num_envs = int(os.getenv("ROBOMORE_NUM_ENVS", "16"))
+    vec_mode = os.getenv("ROBOMORE_VEC_MODE", "subproc").strip().lower()
+    if num_envs <= 1:
+        envs = DummyVecEnv([make_env()])
+    elif vec_mode == "dummy":
+        envs = DummyVecEnv([make_env() for _ in range(num_envs)])
+    else:
+        envs = SubprocVecEnv([make_env() for _ in range(num_envs)])
     
     envs = VecMonitor(envs)  
     
@@ -93,20 +138,25 @@ def Train(morphology, rewardfunc, folder_name, total_timesteps = 5e5, stage ='co
         tensorboard_name = folder_name+f"/sac_morphology{morphology}_rewardfunc{rewardfunc}"
         
 
+    device = resolve_sb3_device()
+    batch_size = int(os.getenv("ROBOMORE_BATCH_SIZE", "1024"))
+    train_freq = int(os.getenv("ROBOMORE_TRAIN_FREQ", "8"))
+    gradient_steps = int(os.getenv("ROBOMORE_GRADIENT_STEPS", "4"))
+
     model = SAC(
         "MlpPolicy",
         envs,
         learning_rate=3e-4,  # 学习率
         buffer_size=2_000_000,  # 经验回放缓冲区（加大）
         learning_starts=10_000,  # 多少步后开始训练
-        batch_size=1024,  # 增大 batch size，提高 GPU 利用率
+        batch_size=batch_size,  # 增大 batch size，提高 GPU 利用率
         tau=0.005,  # 软更新参数
         gamma=0.99,  # 折扣因子
-        train_freq=8,  # 提高数据采样频率
-        gradient_steps=4,  # 每次更新 2 个 step，提高利用率
+        train_freq=train_freq,  # 提高数据采样频率
+        gradient_steps=gradient_steps,  # 每次更新步数
         policy_kwargs=dict(net_arch=[512, 512]),  # 更深的神经网络
         verbose=0,
-        device= "cuda",  # 自动选择 GPU/CPU
+        device=device,
         tensorboard_log=tensorboard_name
     )
     # model = SAC(
@@ -147,7 +197,7 @@ def Train(morphology, rewardfunc, folder_name, total_timesteps = 5e5, stage ='co
 
 def Eva(model_path=None, run_steps=100, folder_name=None, video = False, rewardfunc_index=None, morphology_index=None):
 
-    model = SAC.load(model_path)
+    model = SAC.load(model_path, device=resolve_sb3_device())
     current_dir = os.path.dirname(os.path.abspath(__file__))
     xml_path = os.path.join(current_dir,"GPTAnt.xml")
     env = FitnessWrapper(gym.make("GPTAntEnv", xml_file = xml_path, healthy_z_range = (0.1, 2.3),
@@ -214,7 +264,7 @@ def Eva_with_qpos_logging2(model_path=None, run_steps=5, folder_name=None, video
     import csv
     import pandas as pd
 
-    model = SAC.load(model_path)
+    model = SAC.load(model_path, device=resolve_sb3_device())
     current_dir = os.path.dirname(os.path.abspath(__file__))
     xml_path = os.path.join(current_dir, "GPTAnt.xml")
 
@@ -277,7 +327,7 @@ def Eva_with_qpos_logging(model_path=None, run_steps=1, folder_name=None, video=
     from stable_baselines3 import SAC
 
 
-    model = SAC.load(model_path)
+    model = SAC.load(model_path, device=resolve_sb3_device())
     current_dir = os.path.dirname(os.path.abspath(__file__))
     xml_path = os.path.join(current_dir, "GPTAnt.xml")
 
@@ -368,7 +418,7 @@ def Eva_with_qpos_logging(model_path=None, run_steps=1, folder_name=None, video=
 def Eva_fitness_record(model_path=None, run_steps=100, folder_name=None,
                       rewardfunc_index=None, morphology_index=None):
 
-    model = SAC.load(model_path)
+    model = SAC.load(model_path, device=resolve_sb3_device())
     current_dir = os.path.dirname(os.path.abspath(__file__))
     xml_path = os.path.join(current_dir, "GPTAnt.xml")
     env = FitnessWrapper(gym.make("GPTAntEnv", xml_file=xml_path, healthy_z_range=(0.05, 3.0),

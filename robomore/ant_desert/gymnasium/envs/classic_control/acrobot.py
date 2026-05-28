@@ -20,7 +20,7 @@ __credits__ = [
     "Jonathan P. How",
 ]
 __license__ = "BSD 3-Clause"
-__author__ = "Christoph Dann <cdann@cdann.de>"
+__author__ = "Christoph Dann <redacted@example.com>"
 
 # SOURCE:
 # https://github.com/rlpy/rlpy/blob/master/rlpy/Domains/Acrobot.py

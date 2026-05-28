@@ -1,0 +1,35 @@
+.conda/
+.venv/
+venv/
+env/
+
+__pycache__/
+*.py[cod]
+*.so
+
+.ipynb_checkpoints/
+
+MUJOCO_LOG.TXT
+
+*.log
+*.tmp
+*.swp
+
+.DS_Store
+Thumbs.db
+
+# model weights / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.safetensors
+*.h5
+*.hdf5
+
+# experiment artifacts
+*.mp4
+*.zip
+robomore/**/results/
+robomore/**/different_llm_experiment/results/

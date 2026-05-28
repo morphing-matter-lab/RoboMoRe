@@ -84,7 +84,11 @@ if __name__ == '__main__':
     elif args.task == 'Dance':
         objective = CostFun(task_path='../../build/mjpc/tasks/musculoskeletal/tracking5/task.xml', mjpc_path = '../../')
     elif args.task == 'Stand':
-        objective = CostFun(task_path='../build/mjpc/tasks/musculoskeletal/walk3/task.xml', params_path='/home/mct/Desktop/Projects/mpc2/Approx_GP/pd_torque_params.txt',mjpc_path = '../')
+        objective = CostFun(
+            task_path='../build/mjpc/tasks/musculoskeletal/walk3/task.xml',
+            params_path=os.getenv("PD_TORQUE_PARAMS_PATH", "/path/to/pd_torque_params.txt"),
+            mjpc_path='../'
+        )
     else:
         objective = CostFunOstrich(task_path='../../build/mjpc/tasks/musculoskeletal/walk_gym/task.xml', mjpc_path = '../../')
     

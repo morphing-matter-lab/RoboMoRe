@@ -4,7 +4,7 @@
 A merge between two sources:
 
 * Adaptation of the MountainCar Environment from the "FAReinforcement" library
-of Jose Antonio Martin H. (version 1.0), adapted by  'Tom Schaul, tom@idsia.ch'
+of Jose Antonio Martin H. (version 1.0), adapted by  'Tom Schaul, redacted@example.com'
 and then modified by Arnaud de Broissia
 
 * the gymnasium MountainCar environment

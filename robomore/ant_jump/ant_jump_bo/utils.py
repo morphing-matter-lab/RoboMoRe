@@ -68,7 +68,7 @@ def setup_logging(div_flag):
 def make_env():
     """ 兼容 `SubprocVecEnv` 的 Gym 环境创建函数 """
     def _init():
-        # env = gym.make(env_name, xml_file=r"/home/mml/Ant/GPTAnt.xml")  # 不能加 render_mode，否则 SubprocVecEnv 可能报错
+        # env = gym.make(env_name, xml_file=r"/path/to/GPTAnt.xml")  # 不能加 render_mode，否则 SubprocVecEnv 可能报错
         current_dir = os.path.dirname(os.path.abspath(__file__))
 # 构造相对路径
         xml_path = os.path.join(current_dir,"GPTAnt.xml")
